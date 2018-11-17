@@ -49,13 +49,13 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I start my developing jurney when i attended to college. 
-      my first programming language was Python and it was grate.
-      then i learned CPP and C and find them out they are the most powerfull programming languages.
+      I start my developing journey when i attended to college. 
+      my first programming language was Python and it was great.
+      then i learned CPP and C and find them out they are the most powerful programming languages.
       and for practicing programming, i start to develop an ACM online judge system written in python and 
-      djnago framework. by the time, i learned web-servers and REST APIs and Linux for deployment.
+      django framework. by the time, i learned web-servers and REST APIs and Linux for deployment.
 
-      After college i was pushed to finantial systems. it is very a good experience for me
+      After college i was pushed to financial systems. it is very a good experience for me
       and i will continue the rest of my career in this field.
 
       Learning was a part of me and always will be. 
@@ -124,14 +124,17 @@ experiences:
 projects:
     title: Projects
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      You can see some of my projects.
 
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: RIP
+        link: "#RIP"
+        tagline: ""
+
+    assignments:
+      - title: PYCM Judge
+        link: "#PYCMJudge"
+        tagline: "An online ACM judge system written in python with django"
 
 publications:
     title: Publications
