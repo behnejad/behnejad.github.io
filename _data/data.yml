@@ -31,9 +31,6 @@ sidebar:
         level: Pre-advanced
 
     interests:
-      - item: Hacking
-        link:
-
       - item: Operating Systems
         link:
 
@@ -44,6 +41,9 @@ sidebar:
         link:
 
       - item: Discovering
+        link:
+
+      - item: Hacking
         link:
 
 career-profile:
@@ -62,26 +62,19 @@ education:
       university: Iran University of Science and Technology (IUST)
       time: 2016 - 2018
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+        some text
 
-          - Bullet point
+          - Seminar: A Study on Challenges and their Solutions of Live Migration of Execution Units
           - GPA: 16.00
 
     - degree: BSc in Computer Science (Software)
       university: Iran University of Science and Technology (IUST)
       time: 2012 - 2016
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+        some text
 
-          - Bullet point
+          - Project: Design and Implementation of Web Scraping System for Mining Scientific Papers and Relation between their Authors<br>
+          Sources are avaiable <a href="https://github.com/Aftabgardun">Here</a>
           - GPA: 16.81
 
 experiences:
@@ -89,10 +82,38 @@ experiences:
       time: 2016 - Present
       company: Cloud Computing Center of IUST [<a href="https://ccc.iust.ac.ir/">CCC</a>]
       details: |
-        Head of network administration and Infrastructure, member of deployment
-        team and IT consultant. <br>
+        Head of network administration and Infrastructure, member of deployment team and IT consultant. <br>
         we use MikroTik routers for our infrastructure. <br>
         find some more in <a href="https://ccc.iust.ac.ir/members/">here</a>.
+
+    - role: POS Developer
+      time: 2016 - Present
+      company: AMP
+      details: |
+        Developer of <a href="amobilepayment.com">AMP</a> in KICCC office for developing <br>
+        a brand new Android application for fuel dispensers on special POSs.
+
+    - role: POS Developer
+      time: 2017 - 2018
+      company: Pars System Pouya Iranian (PSPIR)
+      details: |
+        I was working on <a href="amobilepayment.com">AMP</a> POS series in thier Iran office. <br>
+        and developed a complete programs for entire AMP series such as: <br>
+          - Linux base POS
+          - Android POS
+          - Mobile POS
+
+        and for making transaction i used Behpardakht and Pardakht Novin main switch. <br>
+        by that time i developed a library for making ISO8583 messages. <br>
+        later, i was working on fuel dispensers and developing smart cards for private stations <br>
+        and developing an Android application for controlling fuel dispensers. <br>
+
+    - role: Cashless ATM Developer
+      time: 2016 - 2017
+      company: Saramad Fanavari Etelaate Behpardazan
+      details: |
+        I was developing cashless ATMs with Qt and C++. <br>
+        It was connected to Behpardakht switch for its transactions. <br>
 
 projects:
     title: Projects
@@ -155,13 +176,22 @@ skills:
       - name: Unattended Payment Terminal
         level: 80%
 
+      - name: Cilk
+        level: 50%
+
+      - name: MPI
+        level: 60%
+
+      - name: pThread
+        level: 75%
+
       - name: HTML CSS JS
         level: 50%
 
       - name: Bootstrap & Semantic-UI
         level: 80%
 
-      - name: Network
+      - name: Networking
         level: 80%
 
       - name: MikroTik
