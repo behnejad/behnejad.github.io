@@ -13,14 +13,14 @@ sidebar:
 
     # Sidebar links
     email: info@behnejadfard.ir
-    phone: ''
+    phone: 
     website: behnejadfard.ir #do not add http://
     linkedin: hooman-behnejad-bb545b72
     github: behnejad
     gitlab: behnejad
     bitbucket:
-    twitter: ''
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    twitter: 
+    stack-overflow: '3211593/cop' # Number/Username, e.g. 123456/alandoe
     codewars:
 
     languages:
@@ -49,13 +49,19 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
+      I start my developing jurney when i attended to college. 
+      my first programming language was Python and it was grate.
+      then i learned CPP and C and find them out they are the most powerfull programming languages.
+      and for practicing programming, i start to develop an ACM online judge system written in python and 
+      djnago framework. by the time, i learned web-servers and REST APIs and Linux for deployment.
 
-      Second paragraph if required.
+      After college i was pushed to finantial systems. it is very a good experience for me
+      and i will continue the rest of my career in this field.
+
+      Learning was a part of me and always will be. 
+      i like to learn, try and apply new technologies to my work. <br>
+      Performability is my main concern in development process. 
+      and i hope one day i'll become profesional software architect.      
 
 education:
     - degree: MSc in Computer Science (System Software)
@@ -90,8 +96,8 @@ experiences:
       time: 2016 - Present
       company: AMP
       details: |
-        Developer of <a href="amobilepayment.com">AMP</a> in KICCC office for developing <br>
-        a brand new Android application for fuel dispensers on special POSs.
+        Developer of <a href="amobilepayment.com">AMP</a> in KICCC office for developing 
+        a brand new Android application for fuel dispensers on special POSs. <br>
 
     - role: POS Developer
       time: 2017 - 2018
@@ -102,10 +108,10 @@ experiences:
           - Linux base POS
           - Android POS
           - Mobile POS
-
-        and for making transaction i used Behpardakht and Pardakht Novin main switch. <br>
+        
+        i used Behpardakht and Pardakht Novin main switch for transferring transactions. <br>
         by that time i developed a library for making ISO8583 messages. <br>
-        later, i was working on fuel dispensers and developing smart cards for private stations <br>
+        later, i was working on fuel dispensers and developing smart cards for private stations
         and developing an Android application for controlling fuel dispensers. <br>
 
     - role: Cashless ATM Developer
