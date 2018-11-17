@@ -131,7 +131,6 @@ projects:
         link: "#RIP"
         tagline: ""
 
-    assignments:
       - title: PYCM Judge
         link: "#PYCMJudge"
         tagline: "An online ACM judge system written in python with django"
