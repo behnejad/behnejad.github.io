@@ -12,7 +12,7 @@ sidebar:
     avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: info@behnejadfard.ir
+    email: contact@behnejadfard.ir
     phone: 
     website: behnejadfard.ir #do not add http://
     linkedin: hooman-behnejad-bb545b72
@@ -57,15 +57,15 @@ career-profile:
     summary: |
       I start my developing journey when i attended to college. Python is my primary programming language and it always will be.
       After Python, CPP and C are my secondary languages which i use to gain more performance. <br>
-      Linux is my programming environment.  
+      Linux is my programming environment.
 
       After college i was put in financial systems. It is very a good experience for me
       and i will spend the rest of my career in this field.
 
-      Learning was a part of me and always will be. 
+      Learning was a part of me and always will be.
       I like to learn, try and apply new technologies to my work. <br>
-      Performability is my main concern in development process. 
-      and i hope one day i'll become professional software architect.      
+      Performability is my main concern in development process.
+      and i hope one day i'll become professional software architect.
 
 education:
     - degree: MSc in Computer Science (System Software)
@@ -97,7 +97,7 @@ experiences:
         Find more in <a href="https://ccc.iust.ac.ir/members/">here</a>.
 
     - role: POS Developer
-      time: 2016 - Present
+      time: 2018 - Present
       company: AMP
       details: |
         Developer of <a href="amobilepayment.com">AMP</a> Iran's office in <a href="http://www.kiccc.com/">KICCC</a> office for developing 
@@ -112,7 +112,7 @@ experiences:
           - Linux-based POS
           - Android-based POS
           - Mobile POS
-        
+
         I worked with Behpardakht and Pardakht Novin main switch for transferring transactions. <br>
         By the time I developed a library for making ISO8583 messages. <br>
         Later, I was working on fuel dispensers and developing smart cards for private stations
@@ -135,8 +135,10 @@ projects:
         link: "#RIP"
         tagline: |
           A program developed in Quality and Reliability Engineering lab (QRELAB) of IUST for
-          verification of uniformity in the quality of parts and processes with the goal of implementation in production.
-          
+          verification of uniformity in the quality of parts and processes with the goal of implementation in production. <br>
+          This application is being used in <a href="http://www.saipacorp.com/en">Saipa corporation</a>. <br>
+          Written in C++ with Qt.
+
       - title: PYCM Judge
         link: "#PYCMJudge"
         tagline: An online ACM judge system written in Python with django.
@@ -147,11 +149,15 @@ projects:
 
       - title: Gosling
         link: "#gosling"
-        tagline: Very simple school exam website written in Python, Django - <a href="https://github.com/behnejad/gosling.git">Github</a>.
+        tagline: |
+          Very simple school exam website written in Python, Django.
+          Ceck out <a href="https://github.com/behnejad/gosling.git">Github</a>.
 
       - title: Convergence
         link: "#convergence"
-        tagline: A micro framework for agent based simulation written in Python - <a href="https://github.com/omiddavoodi/Convergance.git">Github</a>.
+        tagline: |
+          A micro framework for agent based simulation written in Python.
+          Ceck out <a href="https://github.com/omiddavoodi/Convergance.git">Github</a>.
 
       - title: telegramBot
         link: "#tgbot"
@@ -162,8 +168,18 @@ projects:
         tagline: |
           The aim of the project was to design and implement a web based News article crawler 
           and also implement a Search Engine for indexing and retrieval of data. <br>
-          Check out <a href="https://github.com/erfan111/newsEngineCrawler">newsEngineCrawler</a> <br>
-          Check out <a href="https://github.com/erfan111/newsEngine">newsEngine</a>
+          Written in Python. <br>
+          Check out <a href="https://github.com/erfan111/newsEngineCrawler">newsEngineCrawler</a>. <br>
+          Check out <a href="https://github.com/erfan111/newsEngine">newsEngine</a>.
+
+      - title: Distributed Messaging Application
+        link: "#DistributedMessagingApplication"
+        tagline: |
+          A distributed system which achieving a goal that is “Message Passing on Behalf of Clients”. 
+          This system is intended to provide an abstraction for the client that they see the whole system as single view. <br>
+          Written in Java. <br>
+          Check out <a href="https://github.com/erfan111/DistributedMessagingApplication-Client/">Server</a>. <br>
+          Check out <a href="https://github.com/erfan111/DistributedMessagingApplication-Server/">Client</a>.
 
 publications:
     title: Publications
@@ -220,6 +236,9 @@ skills:
 
       - name: pThread
         level: 75%
+
+      - name: Deployment of OpenStack
+        level: 60%
 
       - name: HTML CSS JS
         level: 50%
