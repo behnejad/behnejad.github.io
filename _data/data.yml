@@ -31,6 +31,9 @@ sidebar:
         level: Pre-advanced
 
     interests:
+      - item: Software Performability
+        link:
+
       - item: Operating Systems
         link:
 
@@ -38,6 +41,9 @@ sidebar:
         link:
 
       - item: Information Security
+        link:
+
+      - item: Embedded Systems
         link:
 
       - item: Discovering
@@ -49,35 +55,33 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I start my developing journey when i attended to college. 
-      my first programming language was Python and it was great.
-      then i learned CPP and C and find them out they are the most powerful programming languages.
-      and for practicing programming, i start to develop an ACM online judge system written in python and 
-      django framework. by the time, i learned web-servers and REST APIs and Linux for deployment.
+      I start my developing journey when i attended to college. Python is my primary programming language and it always will be.
+      After Python, CPP and C are my scondary languages which i use to gain more performance. <br>
+      Linux is my programming environment.  
 
-      After college i was pushed to financial systems. it is very a good experience for me
-      and i will continue the rest of my career in this field.
+      After college i was put in financial systems. It is very a good experience for me
+      and i will spend the rest of my career in this field.
 
       Learning was a part of me and always will be. 
-      i like to learn, try and apply new technologies to my work. <br>
+      I like to learn, try and apply new technologies to my work. <br>
       Performability is my main concern in development process. 
       and i hope one day i'll become profesional software architect.      
 
 education:
     - degree: MSc in Computer Science (System Software)
-      university: Iran University of Science and Technology (IUST)
+      university: Iran University of Science and Technology (<a href="http://www.iust.ac.ir/en">IUST</a>)
       time: 2016 - 2018
       details: |
-        some text
+        Software managments and software engineering principles are the most precious things i have learned in master's degree.
 
           - Seminar: A Study on Challenges and their Solutions of Live Migration of Execution Units
           - GPA: 16.00
 
     - degree: BSc in Computer Science (Software)
-      university: Iran University of Science and Technology (IUST)
+      university: Iran University of Science and Technology (<a href="http://www.iust.ac.ir/en">IUST</a>)
       time: 2012 - 2016
       details: |
-        some text
+        I have learned Linux, MySQL, PostgreSQL, RESTFul API, Apache web-server, NGINX and so many basis for delopment process.
 
           - Project: Design and Implementation of Web Scraping System for Mining Scientific Papers and Relation between their Authors<br>
           Sources are avaiable <a href="https://github.com/Aftabgardun">Here</a>
@@ -89,29 +93,29 @@ experiences:
       company: Cloud Computing Center of IUST [<a href="https://ccc.iust.ac.ir/">CCC</a>]
       details: |
         Head of network administration and Infrastructure, member of deployment team and IT consultant. <br>
-        we use MikroTik routers for our infrastructure. <br>
-        find some more in <a href="https://ccc.iust.ac.ir/members/">here</a>.
+        We use MikroTik routers for our infrastructure. <br>
+        Find more in <a href="https://ccc.iust.ac.ir/members/">here</a>.
 
     - role: POS Developer
       time: 2016 - Present
       company: AMP
       details: |
-        Developer of <a href="amobilepayment.com">AMP</a> in KICCC office for developing 
+        Developer of <a href="amobilepayment.com">AMP</a> Iran's office in <a href="http://www.kiccc.com/">KICCC</a> office for developing 
         a brand new Android application for fuel dispensers on special POSs. <br>
 
     - role: POS Developer
       time: 2017 - 2018
       company: Pars System Pouya Iranian (PSPIR)
       details: |
-        I was working on <a href="amobilepayment.com">AMP</a> POS series in thier Iran office. <br>
+        I was working on <a href="amobilepayment.com">AMP</a> POS series in thier Iran office
         and developed a complete programs for entire AMP series such as: <br>
-          - Linux base POS
-          - Android POS
+          - Linux-based POS
+          - Android-based POS
           - Mobile POS
         
-        i used Behpardakht and Pardakht Novin main switch for transferring transactions. <br>
-        by that time i developed a library for making ISO8583 messages. <br>
-        later, i was working on fuel dispensers and developing smart cards for private stations
+        I worked with Behpardakht and Pardakht Novin main switch for transferring transactions. <br>
+        By the time i developed a library for making ISO8583 messages. <br>
+        Later, i was working on fuel dispensers and developing smart cards for private stations
         and developing an Android application for controlling fuel dispensers. <br>
 
     - role: Cashless ATM Developer
@@ -124,23 +128,39 @@ experiences:
 projects:
     title: Projects
     intro: >
-      You can see some of my projects.
+      Here you can review some of my projects.
 
     assignments:
-      - title: RIP
+      - title: Part Inspection Plan (PIP)
         link: "#RIP"
-        tagline: ""
-
+        tagline: |
+          A program developed in Quilty and Reliablity Engineering lab (QRELAB) of IUST for
+          verification of uniformity in the quality of parts and processes with the goal of implementation in production.
+          
       - title: PYCM Judge
         link: "#PYCMJudge"
-        tagline: "An online ACM judge system written in python with django"
+        tagline: An online ACM judge system written in Python with django.
+
+      - title: Telegram2
+        link: "#tg2"
+        tagline: An unoffcial <a href="https://telegram.org/">Telegram</a> application for Both Android and Desktop.
+
+      - title: Gosling
+        link: "#gosling"
+        tagline: Very simple school exam website <a href="https://github.com/behnejad/gosling.git">Github</a>.
+
+      - title: Convergance
+        link: "#convergance"
+        tagline: A micro framwork for agent based simulation <a href="https://github.com/omiddavoodi/Convergance.git">Github</a>.
+
+      - title: telegramBot
+        link: "#tgbot"
+        tagline: A simple Telegram bot for file sharing.
 
 publications:
     title: Publications
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+      Text
 
     papers:
       - title: The Art of Computer Programming
