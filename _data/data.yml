@@ -9,7 +9,7 @@ sidebar:
     # Profile information
     name: Hooman Behnejad Fard
     tagline: Senior Software Engineer
-    avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: contact@behnejadfard.ir
@@ -156,8 +156,8 @@ projects:
       - title: Convergence
         link: "#convergence"
         tagline: |
-          A micro framework for agent based simulation written in Python.
-          Ceck out <a href="https://github.com/omiddavoodi/Convergance.git">Github</a>.
+          A micro framework for agent based simulation written in Python. <br>
+          Ceck out <a href="https://github.com/omiddavoodi/Convergance/">Github</a>.
 
       - title: telegramBot
         link: "#tgbot"
@@ -227,6 +227,9 @@ skills:
 
       - name: Unattended Payment Terminal
         level: 80%
+
+      - name: Java Card Programming
+        level: 70%
 
       - name: Cilk
         level: 50%
