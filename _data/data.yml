@@ -183,7 +183,7 @@ projects:
 AcademicActivity:
     title: Academic Activities
     intro: |
-      Check out some of my activities i have done in IUST.
+      Check out some of my college activities.
 
     activity:
       - title: Member of Computer Engineering Science Association (CESA)
@@ -273,7 +273,7 @@ skills:
       - name: Cilk (Parallel Programming)
         level: 50%
 
-      - name: MPI (Distributed Computation)
+      - name: MPI (Distributed Computating)
         level: 60%
 
       - name: pThread (Parallel Programming)
