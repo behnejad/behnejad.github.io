@@ -273,7 +273,7 @@ skills:
       - name: Cilk (Parallel Programming)
         level: 50%
 
-      - name: MPI (Distributed Computating)
+      - name: MPI (Distributed Computing)
         level: 60%
 
       - name: pThread (Parallel Programming)
