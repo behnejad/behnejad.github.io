@@ -1,4 +1,5 @@
 {% assign education = site.data.data.education %}
+{% if education %}
 <div class="education-container container-block">
 
   <h2 class="container-block-title">
@@ -14,4 +15,4 @@
   {% endfor %}
 
 </div><!--//education-container-->
- 
+{% endif %} 

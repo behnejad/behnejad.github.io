@@ -1,0 +1,30 @@
+{% assign AcademicActivity = site.data.data.AcademicActivity %}
+{% if AcademicActivity %}
+<section class="section publications-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-user-graduate fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ AcademicActivity.title }}
+  </h2>
+
+  {% if AcademicActivity.intro %}
+  <div class="intro">
+    {{ AcademicActivity.intro | markdownify }}
+  </div><!--//intro-->
+  {% endif %}
+
+  {% for a in AcademicActivity.activity %}
+  <div class="item">
+    <div class="publication-title">{{ a.title }}</div>
+    <div class="publication-authors">
+      {{ a.departman }}
+      <div class="publication-conference" style="float: right; font-style: normal;">{{ a.duration }}</div>
+    </div>
+  </div><!--//item-->
+  {% endfor %}
+
+</section><!--//section-->
+{% endif %}

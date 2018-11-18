@@ -149,7 +149,7 @@ projects:
       - title: Gosling
         link: "#gosling"
         tagline: |
-          Very simple school exam website written in Python, Django.
+          Very simple school exam website written in Python, Django. <br>
           Ceck out <a href="https://github.com/behnejad/gosling.git">Github</a>.
 
       - title: Convergence
@@ -180,15 +180,55 @@ projects:
           Check out <a href="https://github.com/erfan111/DistributedMessagingApplication-Client/">Server</a>. <br>
           Check out <a href="https://github.com/erfan111/DistributedMessagingApplication-Server/">Client</a>.
 
-publications:
-    title: Publications
+AcademicActivity:
+    title: Academic Activities
     intro: |
-      Text
+      Check out some of my activities i have done in IUST.
 
-    papers:
-      - title: The Art of Computer Programming
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+    activity:
+      - title: Member of Computer Engineering Science Association (CESA)
+        departman: School of Computer Engineering of IUST
+        duration: Jul 2013 - Jul 2014
+
+      - title: Member of IUST ACM Management Comittee (AMC)
+        departman: School of Computer Engineering of IUST
+        duration: Nov 2013 - Nov 2015
+
+      - title: Member of Cloud Computer Center of IUST
+        departman: School of Computer Engineering of IUST
+        duration: Jun 2016 - Now
+
+      - title: Member of PyCon organizer team 
+        departman: School of Computer Engineering of IUST
+        duration: '2014'
+
+      - title: Participant of PyCon 2015, 2016
+        departman: 
+        duration: 2015, 2016
+
+      - title: SysAdmin of IUST Git server
+        departman: School of Computer Engineering of IUST
+        duration: Jul 2014 - Sep 2016
+
+      - title: Orginizer of 20 ACM contests
+        departman: School of Computer Engineering and School of Mathematics of IUST
+        duration: 2013 - 2015
+
+      - title: Instructor of Microprocessor Lab 
+        departman: School of Computer Engineering of IUST
+        duration: 4 Semesters
+
+      - title: Teacher's Assistance of Microprocessor and Assembly Course
+        departman: School of Computer Engineering of IUST
+        duration: 2 Semester
+
+      - title: Teacher's Assistance of Database Lab
+        departman: School of Computer Engineering of IUST
+        duration: 1 Semester
+
+      - title: Teacher's Assistance of Advanced Programming Course
+        departman: School of Mathematics of IUST
+        duration: 1 Semester
 
 skills:
     title: Skills &amp; Proficiency
@@ -230,16 +270,16 @@ skills:
       - name: Java Card Programming
         level: 70%
 
-      - name: Cilk
+      - name: Cilk (Parallel Programming)
         level: 50%
 
-      - name: MPI
+      - name: MPI (Distributed Computation)
         level: 60%
 
-      - name: pThread
+      - name: pThread (Parallel Programming)
         level: 75%
 
-      - name: Deployment of OpenStack
+      - name: OpenStack (Deployment)
         level: 60%
 
       - name: HTML CSS JS
