@@ -3,8 +3,8 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Hooman Behnejad Fard
@@ -100,14 +100,14 @@ experiences:
       time: 2018 - Present
       company: AMP
       details: |
-        Developer of <a href="amobilepayment.com">AMP</a> Iran's office in <a href="http://www.kiccc.com/">KICCC</a> office for developing 
+        Developer of <a href="amobilepayment.com">AMP</a> (Iran's office) in <a href="http://www.kiccc.com/">KICCC</a> for developing 
         a brand new Android application for fuel dispensers on special POSs. <br>
 
     - role: POS Developer
       time: 2017 - 2018
       company: Pars System Pouya Iranian (PSPIR)
       details: |
-        I was working on <a href="amobilepayment.com">AMP</a> POS series in their Iran's office
+        I was working on <a href="amobilepayment.com">AMP</a> POS series (Iran's office) 
         and developed complete programs for entire AMP series such as: <br>
           - Linux-based POS
           - Android-based POS
