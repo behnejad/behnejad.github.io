@@ -147,15 +147,23 @@ projects:
 
       - title: Gosling
         link: "#gosling"
-        tagline: Very simple school exam website <a href="https://github.com/behnejad/gosling.git">Github</a>.
+        tagline: Very simple school exam website written in Python, Django - <a href="https://github.com/behnejad/gosling.git">Github</a>.
 
       - title: Convergence
         link: "#convergence"
-        tagline: A micro framework for agent based simulation <a href="https://github.com/omiddavoodi/Convergance.git">Github</a>.
+        tagline: A micro framework for agent based simulation written in Python - <a href="https://github.com/omiddavoodi/Convergance.git">Github</a>.
 
       - title: telegramBot
         link: "#tgbot"
-        tagline: A simple Telegram bot for file sharing.
+        tagline: A simple Telegram bot for file sharing written in Python.
+
+      - title: NewsEngine
+        link: "#newsngine"
+        tagline: |
+          The aim of the project was to design and implement a web based News article crawler 
+          and also implement a Search Engine for indexing and retrieval of data. <br>
+          Check out <a href="https://github.com/erfan111/newsEngineCrawler">newsEngineCrawler</a> <br>
+          Check out <a href="https://github.com/erfan111/newsEngine">newsEngine</a>
 
 publications:
     title: Publications
