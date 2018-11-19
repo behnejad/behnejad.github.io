@@ -16,12 +16,11 @@
 
       <div class="upper-row">
         <h3 class="job-title">{{ item.title }}</h3>
-        <div class="time">{{ item.language }}</div>
       </div><!--//upper-row-->
 
       <div class="company">
       	{{ item.type }}
-      	<div class="publication-conference" style="float: right; font-style: normal;">{{ item.date }}</div>
+      	<div class="publication-conference" style="float: right; font-style: normal;">{{ item.language }} - {{ item.date }}</div>
       </div>
 
     </div><!--//meta-->
@@ -32,9 +31,9 @@
     </div><!--//details-->
     {% endif %}
 
-    {% if presentations.files %}
+    {% if item.files %}
       <div class="details">
-     	{% for file in presentations.files %}
+     	{% for file in item.files %}
      		<a href="{{ site.baseurl }}/assets/files/{{ file.file }}" class="btn btn-default">{{ file.name }}</a>
      	{% endfor %}
       </div><!--//details-->
