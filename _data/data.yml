@@ -89,7 +89,7 @@ education:
 
           - Project: Design and Implementation of Web Scraping System for Mining 
           Scientific Papers and Relation between their Authors<br>
-          Sources are avaiable at <a href="https://github.com/Aftabgardun/">Github</a>
+          Sources are avaiable at <a href="https://github.com/Aftabgardun/" class="btn btn-default btn-xs"><i class="fab fa-github"></i> Github</a>
           - GPA: 16.81
 
 experiences:
@@ -157,20 +157,20 @@ projects:
       - title: Gosling
         link: "#gosling"
         tagline: |
-          A simple online school exam website written in Python, Django. <br>
-          Ceck out <a href="https://github.com/behnejad/gosling.git">Github</a>.
+          A simple online school exam website written in Python, Django. 
+          <a href="https://github.com/behnejad/gosling.git" class="btn btn-default btn-xs"><i class="fab fa-github"></i> Github</a>.
 
       - title: Convergence
         link: "#convergence"
         tagline: |
-          A micro framework for agent based simulation written in Python. <br>
-          Ceck out <a href="https://github.com/omiddavoodi/Convergance/">Github</a>.
+          A micro framework for agent based simulation written in Python.
+          <a href="https://github.com/omiddavoodi/Convergance/" class="btn btn-default btn-xs"><i class="fab fa-github"></i> Github</a>.
 
       - title: Aftabgardun
         link: "#aftabgardun"
         tagline: |
           A web scraping system for scientific papers and relation between their authors. <br>
-          My bachelor degree project. Ceck out <a href="https://github.com/Aftabgardun/">Github</a>.
+          My bachelor degree project. <a href="https://github.com/Aftabgardun/" class="btn btn-default btn-xs"><i class="fab fa-github"></i> Github</a>.
 
       - title: telegramBot
         link: "#tgbot"
@@ -181,18 +181,16 @@ projects:
         tagline: |
           The aim of the project was to design and implement a web based News article crawler 
           and also implement a Search Engine for indexing and retrieval of data. <br>
-          Written in Python. <br>
-          Check out <a href="https://github.com/erfan111/newsEngineCrawler">newsEngineCrawler</a>. <br>
-          Check out <a href="https://github.com/erfan111/newsEngine">newsEngine</a>.
+          Written in Python. <a href="https://github.com/erfan111/newsEngineCrawler" class="btn btn-default btn-xs"><i class="fab fa-github"></i> newsEngineCrawler</a>
+          <a href="https://github.com/erfan111/newsEngine" class="btn btn-default btn-xs"><i class="fab fa-github"></i> newsEngine</a>.
 
       - title: Distributed Messaging Application
         link: "#DistributedMessagingApplication"
         tagline: |
           A distributed system which achieving a goal that is “Message Passing on Behalf of Clients”. 
           This system is intended to provide an abstraction for the client that they see the whole system as single view. <br>
-          Written in Java. <br>
-          Check out <a href="https://github.com/erfan111/DistributedMessagingApplication-Client/" class="btn btn-default"><i class="fa fa-github"></i>Server</a>. <br>
-          Check out <a href="https://github.com/erfan111/DistributedMessagingApplication-Server/" class="btn btn-default"><i class="fa fa-github"></i>Client</a>.
+          Written in Java. <a href="https://github.com/erfan111/DistributedMessagingApplication-Client/" class="btn btn-default btn-xs"><i class="fab fa-github"></i> Server</a>
+          <a href="https://github.com/erfan111/DistributedMessagingApplication-Server/" class="btn btn-default btn-x"><i class="fab fa-github"></i> Client</a>
 
 teachingCourse:
     title: Teaching Course
