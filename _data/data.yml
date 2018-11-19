@@ -204,19 +204,19 @@ AcademicActivity:
         departman: School of Computer Engineering of IUST
         duration: Jun 2016 - Now
 
-      - title: Member of PyCon organizer team 
+      - title: Member of PyCon 2014 Organizer Team 
         departman: School of Computer Engineering of IUST
         duration: '2014'
 
-      - title: Participant of PyCon 2015, 2016
+      - title: Participant of PyCon 2015 and 2016
         departman: 
-        duration: 2015, 2016
+        duration:
 
-      - title: SysAdmin of IUST Git server
+      - title: SysAdmin of IUST Git Server
         departman: School of Computer Engineering of IUST
         duration: Jul 2014 - Sep 2016
 
-      - title: Orginizer of 20 ACM contests
+      - title: Orginizer of 20 ACM Contests
         departman: School of Computer Engineering and School of Mathematics of IUST
         duration: 2013 - 2015
 
@@ -226,7 +226,7 @@ AcademicActivity:
 
       - title: Teacher's Assistance of Microprocessor and Assembly Course
         departman: School of Computer Engineering of IUST
-        duration: 2 Semester
+        duration: 2 Semesters
 
       - title: Teacher's Assistance of Database Lab
         departman: School of Computer Engineering of IUST
