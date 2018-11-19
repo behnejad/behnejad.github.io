@@ -190,7 +190,7 @@ projects:
           A distributed system which achieving a goal that is “Message Passing on Behalf of Clients”. 
           This system is intended to provide an abstraction for the client that they see the whole system as single view. <br>
           Written in Java. <a href="https://github.com/erfan111/DistributedMessagingApplication-Client/" class="btn btn-default btn-xs"><i class="fab fa-github"></i> Server</a>
-          <a href="https://github.com/erfan111/DistributedMessagingApplication-Server/" class="btn btn-default btn-x"><i class="fab fa-github"></i> Client</a>
+          <a href="https://github.com/erfan111/DistributedMessagingApplication-Server/" class="btn btn-default btn-xs"><i class="fab fa-github"></i> Client</a>
 
 teachingCourse:
     title: Teaching Course
