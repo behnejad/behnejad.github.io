@@ -1,0 +1,47 @@
+{% assign presentations = site.data.data.presentations %}
+{% if presentations %}
+<section class="section experiences-section">
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-briefcase fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ presentations.title }}
+  </h2>
+
+  {% for item in presentations.items %}
+  <div class="item">
+
+    <div class="meta">
+
+      <div class="upper-row">
+        <h3 class="job-title">{{ item.title }}</h3>
+        <div class="time">{{ item.language }}</div>
+      </div><!--//upper-row-->
+
+      <div class="company">
+      	{{ item.type }}
+      	<div class="publication-conference" style="float: right; font-style: normal;">{{ item.date }}</div>
+      </div>
+
+    </div><!--//meta-->
+
+    {% if item.text %}
+    <div class="details">
+      {{ item.text | markdownify }}
+    </div><!--//details-->
+    {% endif %}
+
+    {% if presentations.files %}
+      <div class="details">
+     	{% for file in presentations.files %}
+     		<a href="{{ site.baseurl }}/assets/files/{{ file.file }}" class="btn btn-default">{{ file.name }}</a>
+     	{% endfor %}
+      </div><!--//details-->
+  	{% endif %}
+
+  </div><!--//item-->
+  {% endfor %}
+
+</section><!--//section-->
+{% endif %}

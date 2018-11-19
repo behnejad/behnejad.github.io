@@ -188,6 +188,60 @@ projects:
           Check out <a href="https://github.com/erfan111/DistributedMessagingApplication-Client/">Server</a>. <br>
           Check out <a href="https://github.com/erfan111/DistributedMessagingApplication-Server/">Client</a>.
 
+teachingCourse:
+    title: Teaching Course
+
+    cources:
+      - title: AVR for Beginners
+        link: http://ssa.iust.ac.ir/eventL.php?event_id=297
+        duration: 6 weeks - 2017
+        location: Iran University of Science and Technology, School of Computer Science
+        text: 
+
+      - title: MikroTik
+        link: http://ssa.iust.ac.ir/eventL.php?event_id=299
+        duration: 6 weeks - 2017
+        location: Iran University of Science and Technology, School of Computer Science
+        text: |
+          Course headlines:
+            - MTCNA
+            - MTCWE
+            - MTCTCE
+            - MTCUME
+
+presentations:
+    title: Presentation Materials
+
+    items:
+      - title: "A Distributed Messaging Application: Design"
+        date: November 10, 2016
+        files: 
+          - name: slide
+            file: sipmessaging.pdf
+
+        type: Talk, Iran University of Science and Technology.
+        language: English
+        text: |
+          Designing a Distributed Messaging Application which uses SIP protocol for communication. <br>
+          Part of Distributed Systems course projects.
+
+      - title: A Study on Challenges and their Solutions of Live Migration of Execution Units
+        date: May 5, 2017
+        files:
+        type: Talk, Iran University of Science and Technology.
+        language: Perisan
+        text: My MSc. degree seminar presentation.
+
+      - title: NGINX HTTP Server Software Architecture‬‬‬‬
+        date: December 12, 2017
+        files: 
+          - name: slide
+            file: NGINXWebServer.pdf
+
+        type: Talk, Iran University of Science and Technology.
+        language: English
+        text: A review of NGINX HTTP server architecture‬‬‬‬ and internal design.
+
 AcademicActivity:
     title: Academic Activities
     intro: |
