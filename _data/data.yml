@@ -169,7 +169,7 @@ projects:
       - title: Aftabgardun
         link: "#aftabgardun"
         tagline: |
-          A web scraping system for Scientific papers and relation between their authors.
+          A web scraping system for scientific papers and relation between their authors. <br>
           My bachelor degree project. Ceck out <a href="https://github.com/Aftabgardun/">Github</a>.
 
       - title: telegramBot
@@ -191,8 +191,8 @@ projects:
           A distributed system which achieving a goal that is “Message Passing on Behalf of Clients”. 
           This system is intended to provide an abstraction for the client that they see the whole system as single view. <br>
           Written in Java. <br>
-          Check out <a href="https://github.com/erfan111/DistributedMessagingApplication-Client/">Server</a>. <br>
-          Check out <a href="https://github.com/erfan111/DistributedMessagingApplication-Server/">Client</a>.
+          Check out <a href="https://github.com/erfan111/DistributedMessagingApplication-Client/" class="btn btn-default"><i class="fa fa-github"></i>Server</a>. <br>
+          Check out <a href="https://github.com/erfan111/DistributedMessagingApplication-Server/" class="btn btn-default"><i class="fa fa-github"></i>Client</a>.
 
 teachingCourse:
     title: Teaching Course
