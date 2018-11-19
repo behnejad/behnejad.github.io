@@ -216,10 +216,10 @@ presentations:
       - title: "A Distributed Messaging Application: Design"
         date: November 10, 2016
         files: 
-          - name: slide
+          - name: slides
             file: sipmessaging.pdf
 
-        type: Talk, Iran University of Science and Technology.
+        type: Talk, Iran University of Science and Technology
         language: English
         text: |
           Designing a Distributed Messaging Application which uses SIP protocol for communication. <br>
@@ -228,17 +228,17 @@ presentations:
       - title: A Study on Challenges and their Solutions of Live Migration of Execution Units
         date: May 5, 2017
         files:
-        type: Talk, Iran University of Science and Technology.
-        language: Perisan
-        text: My MSc. degree seminar presentation.
+        type: Talk, Iran University of Science and Technology
+        language: Persian
+        text: My MSc. Degree Seminar Presentation.
 
       - title: NGINX HTTP Server Software Architecture‬‬‬‬
         date: December 12, 2017
         files: 
-          - name: slide
+          - name: slides
             file: NGINXWebServer.pdf
 
-        type: Talk, Iran University of Science and Technology.
+        type: Talk, Iran University of Science and Technology
         language: English
         text: A review of NGINX HTTP server architecture‬‬‬‬ and internal design.
 
