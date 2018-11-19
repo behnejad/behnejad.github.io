@@ -89,7 +89,7 @@ education:
 
           - Project: Design and Implementation of Web Scraping System for Mining 
           Scientific Papers and Relation between their Authors<br>
-          Sources are avaiable <a href="https://github.com/Aftabgardun">Here</a>
+          Sources are avaiable at <a href="https://github.com/Aftabgardun/">Github</a>
           - GPA: 16.81
 
 experiences:
@@ -165,6 +165,12 @@ projects:
         tagline: |
           A micro framework for agent based simulation written in Python. <br>
           Ceck out <a href="https://github.com/omiddavoodi/Convergance/">Github</a>.
+
+      - title: Aftabgardun
+        link: "#aftabgardun"
+        tagline: |
+          A web scraping system for Scientific papers and relation between their authors.
+          My bachelor degree project. Ceck out <a href="https://github.com/Aftabgardun/">Github</a>.
 
       - title: telegramBot
         link: "#tgbot"
