@@ -195,13 +195,13 @@ teachingCourse:
       - title: AVR for Beginners
         link: http://ssa.iust.ac.ir/eventL.php?event_id=297
         duration: 6 weeks - 2017
-        location: Iran University of Science and Technology, School of Computer Science
+        location: School of Computer Science of IUST
         text: 
 
       - title: MikroTik
         link: http://ssa.iust.ac.ir/eventL.php?event_id=299
         duration: 6 weeks - 2017
-        location: Iran University of Science and Technology, School of Computer Science
+        location: School of Computer Science of IUST
         text: |
           Course headlines:
             - MTCNA
