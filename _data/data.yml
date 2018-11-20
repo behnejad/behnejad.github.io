@@ -232,6 +232,9 @@ presentations:
       - title: A Study on Challenges and their Solutions of Live Migration of Execution Units
         date: May 5, 2017
         files:
+          - name: paper
+            file: seminarPaper.pdf
+
         type: Talk, Iran University of Science and Technology
         language: Persian
         text: My MSc. Degree Seminar Presentation.
