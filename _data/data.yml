@@ -140,9 +140,9 @@ projects:
       - title: Part Inspection Plan (PIP)
         link: "#PIP"
         tagline: |
-          A program developed in Quality and Reliability Engineering lab (<a href="http://qrelab.iust.ac.ir/">QRELAB</a>) 
+          A desktop application developed in Quality and Reliability Engineering lab (<a href="http://qrelab.iust.ac.ir/">QRELAB</a>) 
           of <a href="http://www.iust.ac.ir/en">IUST</a> for
-          verification of uniformity in the quality of parts and processes with the goal of implementation in production. <br>
+          verification of uniformity in the quality of parts and processes with the goal of implementation in production.
           This application is being used in <a href="http://www.saipacorp.com/en">Saipa corporation</a>. <br>
           Written in C++ with Qt.
 
