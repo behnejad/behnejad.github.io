@@ -168,15 +168,19 @@ projects:
 
       - title: Convergence
         link: "#convergence"
-        tagline: |
-          A micro framework for agent based simulation written in Python.
-          <a href="https://github.com/omiddavoodi/Convergance/" class="btn btn-default btn-xs"><i class="fab fa-github"></i> Github</a>.
+        tagline: A micro framework for agent based simulation written in Python.
+        sources:
+          - name: Github
+            icon: fa-github
+            link: https://github.com/omiddavoodi/Convergance/
 
       - title: Aftabgardun
         link: "#aftabgardun"
-        tagline: |
-          A web scraping system for scientific papers and relation between their authors. <br>
-          My bachelor degree project. <a href="https://github.com/Aftabgardun/" class="btn btn-default btn-xs"><i class="fab fa-github"></i> Github</a>.
+        tagline: A web scraping system for scientific papers and relation between their authors. 
+        sources:
+          - name: Github
+            icon: fa-github
+            link: https://github.com/Aftabgardun/
 
       - title: telegramBot
         link: "#tgbot"
@@ -186,17 +190,29 @@ projects:
         link: "#newsngine"
         tagline: |
           The aim of the project was to design and implement a web based News article crawler 
-          and also implement a Search Engine for indexing and retrieval of data. <br>
-          Written in Python. <a href="https://github.com/erfan111/newsEngineCrawler" class="btn btn-default btn-xs"><i class="fab fa-github"></i> newsEngineCrawler</a>
-          <a href="https://github.com/erfan111/newsEngine" class="btn btn-default btn-xs"><i class="fab fa-github"></i> newsEngine</a>.
+          and also implement a Search Engine for indexing and retrieval of data
+        sources:
+          - name: newsEngineCrawler
+            icon: fa-github
+            link: https://github.com/erfan111/newsEngineCrawler/
+
+          - name: newsEngine
+            icon: fa-github
+            link: https://github.com/erfan111/newsEngine/
 
       - title: Distributed Messaging Application
         link: "#DistributedMessagingApplication"
         tagline: |
           A distributed system which achieving a goal that is “Message Passing on Behalf of Clients”. 
-          This system is intended to provide an abstraction for the client that they see the whole system as single view. <br>
-          Written in Java. <a href="https://github.com/erfan111/DistributedMessagingApplication-Client/" class="btn btn-default btn-xs"><i class="fab fa-github"></i> Server</a>
-          <a href="https://github.com/erfan111/DistributedMessagingApplication-Server/" class="btn btn-default btn-xs"><i class="fab fa-github"></i> Client</a>
+          This system is intended to provide an abstraction for the client that they see the whole system as single view.
+        sources:
+          - name: Client
+            icon: fa-github
+            link: https://github.com/erfan111/DistributedMessagingApplication-Client/
+
+          - name: Server
+            icon: fa-github
+            link: https://github.com/erfan111/DistributedMessagingApplication-Server/
 
 teachingCourse:
     title: Teaching Course
