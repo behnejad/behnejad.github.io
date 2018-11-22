@@ -30,7 +30,7 @@
       {% if project.sources %}
         <br>
         Source(s): 
-        {% for i in project.source %}
+        {% for i in project.sources %}
           <a href="{{ i.link }}" class="btn btn-default btn-xs"><i class="fab {{ i.icon }}"></i> {{ i.name }}</a>
         {% endfor %}
       {% endif %}
