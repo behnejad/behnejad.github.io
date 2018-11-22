@@ -146,6 +146,10 @@ projects:
           This application is being used in <a href="http://www.saipacorp.com/en">Saipa corporation</a>. <br>
           Written in C++ with Qt.
 
+      - title: JISO8583
+        link: '#jiso'
+        tagline: A new implementation of ISO8583 in java for android POS.
+
       - title: PYCM Judge
         link: "#PYCMJudge"
         tagline: An online ACM judge system written in Python with django.
