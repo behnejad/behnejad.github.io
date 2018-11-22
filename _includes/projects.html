@@ -26,6 +26,14 @@
       {% if project.tagline %}
       - <span class="project-tagline">{{ project.tagline }}</span>
       {% endif %}
+      
+      {% if project.sources %}
+        <br>
+        Source(s): 
+        {% for i in project.source %}
+          <a href="{{ i.link }}" class="btn btn-default btn-xs"><i class="fab {{ i.icon }}"></i> {{ i.name }}</a>
+        {% endfor %}
+      {% endif %}
 
     </div><!--//item-->
   {% endfor %}
