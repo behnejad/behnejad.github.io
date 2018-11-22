@@ -160,9 +160,11 @@ projects:
 
       - title: Gosling
         link: "#gosling"
-        tagline: |
-          A simple online school exam website written in Python, Django. 
-          <a href="https://github.com/behnejad/gosling.git" class="btn btn-default btn-xs"><i class="fab fa-github"></i> Github</a>.
+        tagline: A simple online school exam website written in Python, Django. 
+        sources:
+          - name: Github
+            icon: fa-github
+            link: https://github.com/behnejad/gosling/
 
       - title: Convergence
         link: "#convergence"
