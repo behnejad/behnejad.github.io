@@ -103,11 +103,7 @@ experiences:
 
     - role: POS Developer
       time: 2018 - Present
-      company: AMP
-      details: |
-        Developer of <a href="amobilepayment.com">AMP</a> (Iran's office) in 
-        <a href="http://www.kiccc.com/">KICCC</a> for developing 
-        a brand new Android application for fuel dispensers on special POSs. <br>
+      company: <a href="http://www.kiccc.com/">KICCC</a>
 
     - role: POS Developer
       time: 2017 - 2018
