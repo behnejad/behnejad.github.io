@@ -342,16 +342,19 @@ skills:
       - name: C
         level: 100%
 
-      - name: C++ (11+)
-        level: 90%
-      
       - name: AVR
         level: 100%
+
+      - name: C++ (11+)
+        level: 90%
 
       - name: Python
         level: 90%
 
       - name: Linux
+        level: 85%
+
+      - name: pThread (Parallel Programming)
         level: 85%
 
       - name: Django
@@ -362,9 +365,6 @@ skills:
 
       - name: Java Card Programming
         level: 80%
-
-      - name: pThread (Parallel Programming)
-        level: 85%
 
       - name: Bootstrap & Semantic-UI
         level: 80%
