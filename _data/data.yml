@@ -33,6 +33,9 @@ sidebar:
       - item: Software Performability
         link:
 
+      - item: POS/Payment Switch Development
+        link:
+
       - item: Operating Systems
         link:
 
@@ -46,9 +49,6 @@ sidebar:
         link:
 
       - item: Discovering
-        link:
-
-      - item: Hacking
         link:
 
 career-profile:
@@ -104,6 +104,14 @@ experiences:
     - role: POS Developer
       time: 2018 - Present
       company: <a href="http://www.kiccc.com/">KICCC</a>
+      details: |
+        I am developing applications for <a href="amobilepayment.com">AMP</a> and <a href="www.spectratech.com">Spectra</a> POSs. <br>
+         - AMP mPOS
+         - AMP counter top
+         - AMP android POS
+         - AMP GPRS POS
+         - Spectra T300 GPRS POS
+         - Spectra SP530 mPOS
 
     - role: POS Developer
       time: 2017 - 2018
@@ -334,53 +342,29 @@ skills:
       - name: C
         level: 100%
 
+      - name: C++ (11+)
+        level: 90%
+      
+      - name: AVR
+        level: 100%
+
       - name: Python
         level: 90%
-
-      - name: Django
-        level: 80%
-
-      - name: Flask
-        level: 60%
-
-      - name: C++
-        level: 80%
-
-      - name: Qt
-        level: 60%
-
-      - name: Android
-        level: 60%
-
-      - name: Java
-        level: 40%
 
       - name: Linux
         level: 85%
 
-      - name: GIT
-        level: 70%
+      - name: Django
+        level: 80%
 
       - name: Unattended Payment Terminal
         level: 80%
 
       - name: Java Card Programming
-        level: 70%
-
-      - name: Cilk (Parallel Programming)
-        level: 50%
-
-      - name: MPI (Distributed Computing)
-        level: 60%
+        level: 80%
 
       - name: pThread (Parallel Programming)
-        level: 75%
-
-      - name: OpenStack (Deployment)
-        level: 60%
-
-      - name: HTML CSS JS
-        level: 50%
+        level: 85%
 
       - name: Bootstrap & Semantic-UI
         level: 80%
@@ -389,13 +373,37 @@ skills:
         level: 80%
 
       - name: MikroTik
+        level: 80%
+
+      - name: GIT
         level: 70%
+
+      - name: Flask
+        level: 60%
+
+      - name: Qt
+        level: 60%
+
+      - name: Android
+        level: 60%
+
+      - name: MPI (Distributed Computing)
+        level: 60%
+
+      - name: OpenStack (Deployment)
+        level: 60%
+
+      - name: Cilk (Parallel Programming)
+        level: 50%
+
+      - name: HTML CSS JS
+        level: 50%
+
+      - name: Java
+        level: 40%
 
       - name: Cisco
         level: 30%
-
-      - name: AVR
-        level: 90%
 
 footer: >
     Designed by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
