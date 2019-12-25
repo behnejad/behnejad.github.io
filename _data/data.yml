@@ -105,15 +105,18 @@ experiences:
       time: 2018 - Present
       company: <a href="http://www.kiccc.com/">KICCC</a>
       details: |
-        I am developing applications for <a href="amobilepayment.com">AMP</a> and <a href="www.spectratech.com">Spectra</a> POSs. <br>
+        I am developing applications for <a href="http://amobilepayment.com">AMP</a> and <a href="http://www.spectratech.com">Spectra</a> POSs. <br>
+        Some of my projects in kiccc: <br>
          - AMP mPOS
          - AMP counter top
          - AMP android POS
          - AMP GPRS POS
          - Spectra T300 GPRS POS
-         - Spectra SP530 mPOS <br>
-         
-        Beside KICCC POSs, I am developing Spectra mPOS for <a href="sadadpsp.ir">SADAD</a>.
+         - Spectra SP530 mPOS
+         - Closed loop payment switch.
+         - Smart card for master key injection.
+        <br>
+        Beside KICCC POSs, I developed Spectra mPOS for <a href="http://sadadpsp.ir">SADAD</a> psp.
 
     - role: POS Developer
       time: 2017 - 2018
