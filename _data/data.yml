@@ -102,7 +102,7 @@ experiences:
         Find more in <a href="https://ccc.iust.ac.ir/">here</a>.
 
     - role: POS Developer
-      time: 2018 - Present
+      time: 2018 - 2020
       company: <a href="http://www.kiccc.com/">KICCC</a>
       details: |
         I am developing applications for <a href="http://amobilepayment.com">AMP</a> and <a href="http://www.spectratech.com">Spectra</a> POSs. <br>
@@ -116,7 +116,7 @@ experiences:
          - Closed loop payment switch.
          - Smart card for master key injection.
         <br>
-        Beside KICCC POSs, I developed Spectra mPOS for <a href="http://sadadpsp.ir">SADAD</a> psp.
+        I also developed Spectra mPOS for <a href="http://sadadpsp.ir">SADAD</a> psp.
 
     - role: POS Developer
       time: 2017 - 2018
