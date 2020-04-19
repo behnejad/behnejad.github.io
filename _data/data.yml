@@ -95,18 +95,23 @@ education:
 experiences:
     - role: Head of Network Infrastructure
       time: 2016 - Present
-      company: Cloud Computing Center of IUST [<a href="https://ccc.iust.ac.ir/">CCC</a>]
+      company: Cloud Computing Center of IUST [<a href="http://ccc.iust.ac.ir/">CCC</a>]
       details: |
         Head of network administration and Infrastructure, member of deployment team and IT consultant. <br>
         We use MikroTik routers for our infrastructure. <br>
         Find more in <a href="https://ccc.iust.ac.ir/">here</a>.
 
+    - role: C/C++ Developer
+      time: 2020 - Present
+      company: Sina Communication Systems [<a href="http://sinacomsys.com/">CCC</a>]
+      details:
+
     - role: POS Developer
       time: 2018 - 2020
-      company: <a href="http://www.kiccc.com/">KICCC</a>
+      company: <a href="http://www.kiccc.com/">IranKish Credit Card Company</a>
       details: |
         I am developing applications for <a href="http://amobilepayment.com">AMP</a> and <a href="http://www.spectratech.com">Spectra</a> POSs. <br>
-        Some of my projects in kiccc: <br>
+        Some of my projects in KICCC: <br>
          - AMP mPOS
          - AMP counter top
          - AMP android POS
@@ -351,6 +356,9 @@ skills:
         level: 100%
 
       - name: C++ (11+)
+        level: 90%
+
+      - name: ZeroMQ (CPP)
         level: 90%
 
       - name: Python
