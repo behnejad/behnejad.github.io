@@ -100,11 +100,11 @@ experiences:
         Head of network administration and Infrastructure, member of deployment team and IT consultant. <br>
         We use MikroTik routers for our infrastructure. <br>
         Find more in <a href="https://ccc.iust.ac.ir/">here</a>.
-
-    - role: C/C++ Developer
-      time: 2020 - Present
-      company: Sina Communication Systems [<a href="http://sinacomsys.com/">CCC</a>]
-      details:
+        
+#     - role: C/C++ Developer
+#       time: 2020 - Present
+#       company: Sina Communication Systems [<a href="http://sinacomsys.com/">CCC</a>]
+#       details:
 
     - role: POS Developer
       time: 2018 - 2020
