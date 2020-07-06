@@ -238,6 +238,12 @@ teachingCourse:
         location: School of Computer Science of IUST
         text: 
 
+      - title: Advanced AVR
+        link: http://ssa.iust.ac.ir/eventL.php?event_id=327
+        duration: 6 weeks - 2017
+        location: School of Computer Science of IUST
+        text: 
+
       - title: MikroTik
         link: http://ssa.iust.ac.ir/eventL.php?event_id=299
         duration: 6 weeks - 2017
