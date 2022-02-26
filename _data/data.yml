@@ -16,10 +16,10 @@ sidebar:
     website: behnejadfard.ir #do not add http://
     linkedin: hooman-behnejad-bb545b72
     github: behnejad
-    gitlab: behnejad
+    gitlab: 
     bitbucket:
     twitter: 
-    stack-overflow: '3211593/cop' # Number/Username, e.g. 123456/alandoe
+    stack-overflow: '3211593' # Number/Username, e.g. 123456/alandoe
     codewars:
 
     languages:
