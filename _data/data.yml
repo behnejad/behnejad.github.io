@@ -101,16 +101,19 @@ experiences:
         We use MikroTik routers for our infrastructure. <br>
         Find more in <a href="https://ccc.iust.ac.ir/">here</a>.
         
-#     - role: C/C++ Developer
-#       time: 2020 - Present
-#       company: Sina Communication Systems [<a href="http://sinacomsys.com/">CCC</a>]
-#       details:
+    - role: C/C++ Developer
+      time: 2020 - Present
+      company: Sina Communication Systems [<a href="http://sinacomsys.com/">CCC</a>]
+      details: |
+        developing userspace software for control plain of DWDM Transmission System. such as cli, update subsystem, trap sender and so on.
+        developing kernel module for providing percise clock signal for mdio over gpio.
+        maintaining yocto and jenkins systems.
 
-    - role: POS Developer
+    - role: C/C++ Developer
       time: 2018 - 2020
       company: <a href="http://www.kiccc.com/">IranKish Credit Card Company</a>
       details: |
-        I am developing applications for <a href="http://amobilepayment.com">AMP</a> and <a href="http://www.spectratech.com">Spectra</a> POSs. <br>
+        I was developing applications for <a href="http://amobilepayment.com">AMP</a> and <a href="http://www.spectratech.com">Spectra</a> POSs. <br>
         Some of my projects in KICCC: <br>
          - AMP mPOS
          - AMP counter top
@@ -123,7 +126,7 @@ experiences:
         <br>
         I also developed Spectra mPOS for <a href="http://sadadpsp.ir">SADAD</a> psp.
 
-    - role: POS Developer
+    - role: C/C++ Developer
       time: 2017 - 2018
       company: Pars System Pouya Iranian (PSPIR)
       details: |
