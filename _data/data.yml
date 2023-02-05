@@ -95,7 +95,7 @@ education:
 experiences:
     - role: Head of Network Infrastructure
       time: 2016 - Present
-      company: Cloud Computing Center of IUST [<a href="http://ccc.iust.ac.ir/">CCC</a>]
+      company: <a href="http://ccc.iust.ac.ir/">Cloud Computing Center of IUST</a>
       details: |
         Head of network administration and Infrastructure, member of deployment team and IT consultant. <br>
         We use MikroTik routers for our infrastructure. <br>
@@ -103,11 +103,11 @@ experiences:
         
     - role: C/C++ Developer
       time: 2020 - Present
-      company: Sina Communication Systems [<a href="http://sinacomsys.com/">CCC</a>]
+      company: <a href="http://sinacomsys.com/">Sina Communication Systems</a>
       details: |
-        developing userspace software for control plain of DWDM Transmission System. such as cli, update subsystem, trap sender and so on.
-        developing kernel module for providing percise clock signal for mdio over gpio.
-        maintaining yocto and jenkins systems.
+        developing userspace software for control plain of DWDM Transmission System. such as cli, update subsystem, trap sender and so on. <br>
+        developing kernel module for providing percise clock signal for mdio over gpio. <br>
+        maintaining yocto and jenkins. <br>
 
     - role: C/C++ Developer
       time: 2018 - 2020
@@ -365,7 +365,7 @@ skills:
         level: 100%
 
       - name: C++ (11+)
-        level: 90%
+        level: 75%
 
       - name: ZeroMQ (CPP)
         level: 90%
