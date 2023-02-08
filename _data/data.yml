@@ -33,7 +33,7 @@ sidebar:
       - item: Software Performability
         link:
 
-      - item: POS/Payment Switch Development
+      - item: POS/Payment Switch
         link:
 
       - item: Operating Systems
@@ -48,7 +48,7 @@ sidebar:
       - item: Embedded Systems
         link:
 
-      - item: Discovering
+      - item: Hardware
         link:
 
 career-profile:
@@ -68,6 +68,10 @@ career-profile:
 
       Performability is my main concern in development process.
       Working hard to be a professional software architect. 
+
+      I find myself a person who wants to understand every little things behind everything (Software and Hardwere). <br>
+      This helps me to understand better and use it in future projects. <br>
+      I am thirsty for knowledge and never giving up on learning thins.
 
 education:
     - degree: MSc in Computer Science (System Software)
@@ -115,14 +119,10 @@ experiences:
       details: |
         I was developing applications for <a href="http://amobilepayment.com">AMP</a> and <a href="http://www.spectratech.com">Spectra</a> POSs. <br>
         Some of my projects in KICCC: <br>
-         - AMP mPOS
-         - AMP counter top
-         - AMP android POS
-         - AMP GPRS POS
-         - Spectra T300 GPRS POS
-         - Spectra SP530 mPOS
+         - AMP Terminals (mPOS, Android POS, Linux POS
+         - Spectra Terminals (T300, SP530)
          - Closed loop payment switch.
-         - Smart card for master key injection.
+         - Java Card programming.
         <br>
         I also developed Spectra mPOS for <a href="http://sadadpsp.ir">SADAD</a> psp.
 
@@ -358,37 +358,22 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: C
-        level: 100%
-
-      - name: AVR
-        level: 100%
-
-      - name: C++ (11+)
+      - name: C / C++ (11+)
         level: 75%
-
-      - name: ZeroMQ (CPP)
-        level: 90%
 
       - name: Python
         level: 90%
+        
+      - name: Java
+        level: 50%
 
       - name: Linux
         level: 85%
 
-      - name: pThread (Parallel Programming)
-        level: 85%
-
-      - name: Django
-        level: 80%
-
-      - name: Unattended Payment Terminal
-        level: 80%
+      - name: Android
+        level: 60%
 
       - name: Java Card Programming
-        level: 80%
-
-      - name: Bootstrap & Semantic-UI
         level: 80%
 
       - name: Networking
@@ -398,34 +383,25 @@ skills:
         level: 80%
 
       - name: GIT
-        level: 70%
+        level: 50%
 
-      - name: Flask
-        level: 60%
+      - name: Python Web Frameworks (Django-1.8, Flask)
+        level: 50%
 
       - name: Qt
         level: 60%
 
-      - name: Android
-        level: 60%
-
-      - name: MPI (Distributed Computing)
-        level: 60%
-
-      - name: OpenStack (Deployment)
-        level: 60%
-
-      - name: Cilk (Parallel Programming)
-        level: 50%
+      - name: Parallel Programming (pThread, MPI, Cilk)
+        level: 85%
+        
+      - name: Micro-controllers (AVR)
+        level: 90%
 
       - name: HTML CSS JS
         level: 50%
-
-      - name: Java
-        level: 50%
-
-      - name: Cisco
-        level: 30%
+        
+      - name: Bootstrap & Semantic-UI
+        level: 80%
 
 footer: >
     Designed by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
