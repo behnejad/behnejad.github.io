@@ -82,7 +82,7 @@ education:
         i have learned in master's degree.
 
           - Seminar: A Study on Challenges and their Solutions of Live Migration of Execution Units
-          - GPA: 16.00
+          - GPA: 16.00/20
 
     - degree: BSc in Computer Science (Software)
       university: Iran University of Science and Technology (<a href="http://www.iust.ac.ir/en">IUST</a>)
@@ -94,7 +94,7 @@ education:
           - Project: Design and Implementation of Web Scraping System for Mining 
           Scientific Papers and Relation between their Authors<br>
           Sources are avaiable at <a href="https://github.com/Aftabgardun/" class="btn btn-default btn-xs"><i class="fab fa-github"></i> Github</a>
-          - GPA: 16.81
+          - GPA: 16.81/20
 
 experiences:
     - role: Head of Network Infrastructure
@@ -106,7 +106,7 @@ experiences:
         Find more in <a href="https://ccc.iust.ac.ir/">here</a>.
         
     - role: C/C++ Developer
-      time: 2020 - Present
+      time: 2020 - 2023
       company: <a href="http://sinacomsys.com/">Sina Communication Systems</a>
       details: |
         developing userspace software for control plain of DWDM Transmission System. such as cli, update subsystem, trap sender and so on. <br>
