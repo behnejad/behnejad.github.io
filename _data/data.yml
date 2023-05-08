@@ -1,9 +1,10 @@
 #
-# Be aware that even a small syntax error here can lead to failures in output. 
+# Be aware that even a small syntax error here can lead to failures in output.
 #
 
 sidebar:
-    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Hooman Behnejad Fard
@@ -12,44 +13,55 @@ sidebar:
 
     # Sidebar links
     email: contact@behnejadfard.ir
-    phone: 
+    phone:
+    timezone: Asia/Tehran Timezone
+    citizenship: Iran
     website: behnejadfard.ir #do not add http://
     linkedin: hooman-behnejad-bb545b72
+    xing:
     github: behnejad
-    gitlab: 
+    telegram: # add your nickname without '@' sign
+    gitlab:
     bitbucket:
-    twitter: 
+    twitter:
     stack-overflow: '3211593' # Number/Username, e.g. 123456/alandoe
     codewars:
 
     languages:
-      - idiom: Persian
-        level: Native
+      title: Languages
+      info:
+        - idiom: Persian
+          level: Native
 
-      - idiom: English
-        level: Pre-advanced
+        - idiom: English
+          level: Pre-advanced
 
     interests:
-      - item: Software Performability
-        link:
+      title: Interests
+      info:
+        - item: Climbing
+          link:
 
-      - item: POS/Payment Switch
-        link:
+        - item: Software Performability
+          link:
 
-      - item: Operating Systems
-        link:
+        - item: POS/Payment Switch
+          link:
 
-      - item: Distributed Processing
-        link:
+        - item: Operating Systems
+          link:
 
-      - item: Information Security
-        link:
+        - item: Distributed Processing
+          link:
 
-      - item: Embedded Systems
-        link:
+        - item: Information Security
+          link:
 
-      - item: Hardware
-        link:
+        - item: Embedded Systems
+          link:
+
+        - item: Hardware
+          link:
 
 career-profile:
     title: Career Profile
@@ -74,84 +86,131 @@ career-profile:
       I am thirsty for knowledge and never giving up on learning thins.
 
 education:
-    - degree: MSc in Computer Science (System Software)
-      university: Iran University of Science and Technology (<a href="http://www.iust.ac.ir/en">IUST</a>)
-      time: 2016 - 2018
-      details: |
-        Software managments and software engineering/design principles are the most precious things
-        i have learned in master's degree.
+    title: Education
+    info:
+      - degree: MSc in Computer Science (System Software)
+        university: Iran University of Science and Technology (<a href="http://www.iust.ac.ir/en">IUST</a>)
+        time: 2016 - 2018
+        details: |
+          Software managments and software engineering/design principles are the most precious things
+          i have learned in master's degree.
 
           - Seminar: A Study on Challenges and their Solutions of Live Migration of Execution Units
           - GPA: 16.00/20
 
-    - degree: BSc in Computer Science (Software)
-      university: Iran University of Science and Technology (<a href="http://www.iust.ac.ir/en">IUST</a>)
-      time: 2012 - 2016
-      details: |
-        I have learned Linux, MySQL, PostgreSQL, RESTFul API, Apache web-server, 
-        NGINX and so many basis for delopment process.
-
+      - degree: BSc in Computer Science (Software)
+        university: Iran University of Science and Technology (<a href="http://www.iust.ac.ir/en">IUST</a>)
+        time: 2012 - 2016
+        details: |
+          I have learned Linux, MySQL, PostgreSQL, RESTFul API, Apache web-server, 
+          NGINX and so many basis for delopment process.
+          
           - Project: Design and Implementation of Web Scraping System for Mining 
           Scientific Papers and Relation between their Authors<br>
           Sources are avaiable at <a href="https://github.com/Aftabgardun/" class="btn btn-default btn-xs"><i class="fab fa-github"></i> Github</a>
           - GPA: 16.81/20
 
+teachingCourse:
+  title: Teaching Courses
+  cources:
+    - title: Microprocessor Lab
+      text: Atmel AVR microcontrollers
+      link: #
+      location: School of Computer Engineering of IUST
+      duration: 4 Semesters
+
+    - title: Teacher's Assistance of Microprocessor Course
+      text: Atmel AVR microcontrollers
+      link: #
+      location: School of Computer Engineering of IUST
+      duration: 2 Semesters
+
+    - title: Teacher's Assistance of Assembly Course
+      text: X86 assembly
+      link: #
+      location: School of Computer Engineering of IUST
+      duration: 2 Semesters
+
+    - title: Teacher's Assistance of Database Lab
+      text: SQL Server
+      link: #
+      location: School of Computer Engineering of IUST
+      duration: 1 Semester
+
+    - title: Teacher's Assistance of Advanced Programming Course
+      text: C++ programming language
+      link: #
+      location: School of Mathematics of IUST
+      duration: 1 Semester
+
+
 experiences:
-    - role: Head of Network Infrastructure
-      time: 2016 - Present
-      company: <a href="http://ccc.iust.ac.ir/">Cloud Computing Center of IUST</a>
-      details: |
-        Head of network administration and Infrastructure, member of deployment team and IT consultant. <br>
-        We use MikroTik routers for our infrastructure. <br>
-        Find more in <a href="https://ccc.iust.ac.ir/">here</a>.
-        
-    - role: C/C++ Developer
-      time: 2020 - 2023
-      company: <a href="http://sinacomsys.com/">Sina Communication Systems</a>
-      details: |
-        developing userspace software for control plain of DWDM Transmission System. such as cli, update subsystem, trap sender and so on. <br>
-        developing kernel module for providing percise clock signal for mdio over gpio. <br>
-        maintaining yocto and jenkins. <br>
+    title: Experiences
+    info:
+      - role: Head of Network Infrastructure
+        time: 2016 - Present
+        company: <a href="http://ccc.iust.ac.ir/">Cloud Computing Center of IUST</a>
+        details: |
+          Head of network administration and Infrastructure, member of deployment team and IT consultant.
+          Find more <a href="https://ccc.iust.ac.ir/">here</a>.
 
-    - role: C/C++ Developer
-      time: 2018 - 2020
-      company: <a href="http://www.kiccc.com/">IranKish Credit Card Company</a>
-      details: |
-        I was developing applications for <a href="http://amobilepayment.com">AMP</a> and <a href="http://www.spectratech.com">Spectra</a> POSs. <br>
-        Some of my projects in KICCC: <br>
-         - AMP Terminals (mPOS, Android POS, Linux POS
-         - Spectra Terminals (T300, SP530)
-         - Closed loop payment switch.
-         - Java Card programming.
-        <br>
-        I also developed Spectra mPOS for <a href="http://sadadpsp.ir">SADAD</a> psp.
+      - role: C/C++ Developer
+        time: 2023 - present
+        company: <a href="http://sabinarya.com/">Sabin Tejarat Arya</a>
+        details: |
+          Developing Payment Terminal's application for the following brands: <br>
+          - <a href="http://www.paxtechnology.com">PAX</a>
+          - <a href="http://amobilepayment.com">AMP</a>
+          - <a href="http://www.spectratech.com">Spectra</a>
 
-    - role: C/C++ Developer
-      time: 2017 - 2018
-      company: Pars System Pouya Iranian (PSPIR)
-      details: |
-        I was working on <a href="amobilepayment.com">AMP</a> POS series (Iran's office) 
-        and developed complete programs for entire AMP series such as: <br>
-          - Linux-based POS
-          - Android-based POS
-          - Mobile POS
+      - role: C/C++ Developer
+        time: 2020 - 2023
+        company: <a href="http://sinacomsys.com/">Sina Communication Systems</a>
+        details: |
+          Developing userspace software for control plain of DWDM Transmission System. 
+          Such as cli, update subsystem, trap sender and so on. <br>
+          Developing kernel module for providing percise clock signal for mdio over gpio. <br>
+          Maintaining yocto and jenkins. <br>
+          Revising software architecture for embedded side of OLT devices. 
 
-        I worked with Behpardakht and Pardakht Novin main switch for transferring transactions. <br>
-        By the time I developed a library for making ISO8583 messages. <br>
-        Later, I was working on fuel dispensers and developing smart cards for private stations
-        and developing an Android application for controlling fuel dispensers. <br>
+      - role: C/C++ Developer
+        time: 2018 - 2020
+        company: <a href="http://www.kiccc.com/">IranKish Credit Card Company</a>
+        details: |
+          Developing Payment Terminal's application for the following brands: <br>
+          - <a href="http://amobilepayment.com">AMP</a>
+          - <a href="http://www.spectratech.com">Spectra</a>
 
-    - role: C/C++ Developer
-      time: 2016 - 2017
-      company: Saramad Fanavari Etelaate Behpardazan
-      details: |
-        I was developing cashless ATMs with Qt and C++. <br>
-        It was connected to Behpardakht switch for its transactions. <br>
+          Noticeable activities:
+           - AMP Terminals (mPOS, Android POS, Linux POS)
+           - Spectra Terminals (T300, SP530)
+           - Spectra SP530 application for <a href="http://sadadpsp.ir">SADAD</a> psp.
+           - Closed loop payment switch.
+
+      - role: C/C++ Developer
+        time: 2017 - 2018
+        company: Pars System Pouya Iranian (PSPIR)
+        details: |
+          Working on <a href="amobilepayment.com">AMP</a> POS series (Iran's branch) 
+          and developed complete programs for entire AMP series such as: <br>
+            - Linux-based POS
+            - Android-based POS
+            - Mobile POS
+
+          Noticeable activities:
+          - Developed a library for making ISO8583 messages. <br>
+          - Working with Fuel dispensers.
+          - Developing smart cards (java card) for private stations.
+
+      - role: C/C++ Developer
+        time: 2016 - 2017
+        company: Saramad Fanavari Etelaate Behpardazan
+        details: |
+          Developing cashless ATMs with Qt and C++.
 
 projects:
     title: Projects
     intro: >
-      Here you can review some of my projects.
 
     assignments:
       - title: Part Inspection Plan (PIP)
@@ -171,13 +230,17 @@ projects:
         link: "#PYCMJudge"
         tagline: An online ACM judge system written in Python with django.
 
-      - title: Telegram2
-        link: "#tg2"
-        tagline: An unofficial <a href="https://telegram.org/">Telegram</a> application for Both Android and Desktop.
+#      - title: Telegram2
+#        link: "#tg2"
+#        tagline: An unofficial <a href="https://telegram.org/">Telegram</a> application for Both Android and Desktop.
+
+#      - title: telegramBot
+#        link: "#tgbot"
+#        tagline: A simple Telegram bot for file sharing written in Python.
 
       - title: Gosling
         link: "#gosling"
-        tagline: A simple online school exam website written in Python, Django. 
+        tagline: A simple online school exam website written in Python, Django.
         sources:
           - name: Github
             icon: fa-github
@@ -193,15 +256,11 @@ projects:
 
       - title: Aftabgardun
         link: "#aftabgardun"
-        tagline: A web scraping system for scientific papers and relation between their authors. 
+        tagline: A web scraping system for scientific papers and relation between their authors.
         sources:
           - name: Github
             icon: fa-github
             link: https://github.com/Aftabgardun/
-
-      - title: telegramBot
-        link: "#tgbot"
-        tagline: A simple Telegram bot for file sharing written in Python.
 
       - title: NewsEngine
         link: "#newsngine"
@@ -231,147 +290,151 @@ projects:
             icon: fa-github
             link: https://github.com/erfan111/DistributedMessagingApplication-Server/
 
-teachingCourse:
-    title: Teaching Course
+#oss:
+#  title: OSS Contributions
+#  intro: >
+#    You can list your open source software contributions in this
+#    section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#    Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#  contributions:
+#    - title: Tempo
+#      link: "#"
+#      tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+#
+#    - title: Atom
+#      link: "#"
+#      tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+#
+#    - title: Delta
+#      link: "#"
+#      tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-    cources:
-      - title: AVR for Beginners
-        link: http://ssa.iust.ac.ir/eventL.php?event_id=297
-        duration: 6 weeks - 2017
-        location: School of Computer Science of IUST
-        text: 
-
-      - title: Advanced AVR
-        link: http://ssa.iust.ac.ir/eventL.php?event_id=327
-        duration: 6 weeks - 2017
-        location: School of Computer Science of IUST
-        text: 
-
-      - title: MikroTik
-        link: http://ssa.iust.ac.ir/eventL.php?event_id=299
-        duration: 6 weeks - 2017
-        location: School of Computer Science of IUST
-        text: |
-          Course headlines:
-            - MTCNA
-            - MTCWE
-            - MTCTCE
-            - MTCUME
+#publications:
+#    title: Publications
+#    intro: |
+#      You can list your publications in this section. Lorem ipsum dolor sit
+#      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#      bibendum fringilla a eu lectus.
+#
+#    papers:
+#      - title: The Art of Computer Programming
+#        link: "#"
+#        authors: Donald E. Knuth
+#        conference: Addison-Wesley, 1968
+#
+#      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#        link: "#"
+#        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+#
+#      - title: A syntax directed compiler for Algol 60
+#        link: "#"
+#        authors: Edgar T. Irons
+#        conference: "Comm. ACM 4 (1961), 51–55"
 
 presentations:
-    title: Presentation Materials
+  title: Presentation Materials
 
-    items:
-      - title: "A Distributed Messaging Application: Design"
-        date: November 10, 2016
-        files: 
-          - name: slides
-            file: sipmessaging.pdf
+  items:
+    - title: "A Distributed Messaging Application: Design"
+      date: November 10, 2016
+      files:
+        - name: slides
+          file: sipmessaging.pdf
 
-        type: Talk, Iran University of Science and Technology
-        language: English
-        text: |
-          Designing a Distributed Messaging Application which uses SIP protocol for communication. <br>
-          Part of Distributed Systems course projects.
+      type: Talk, Iran University of Science and Technology
+      language: English
+      text: |
+        Designing a Distributed Messaging Application which uses SIP protocol for communication. <br>
+        Part of Distributed Systems course projects.
 
-      - title: A Study on Challenges and their Solutions of Live Migration of Execution Units
-        date: May 5, 2017
-        files:
-          - name: paper
-            file: seminarPaper.pdf
+    - title: A Study on Challenges and their Solutions of Live Migration of Execution Units
+      date: May 5, 2017
+      files:
+        - name: paper
+          file: seminarPaper.pdf
 
-        type: Talk, Iran University of Science and Technology
-        language: Persian
-        text: My MSc. Degree Seminar Presentation.
+      type: Talk, Iran University of Science and Technology
+      language: Persian
+      text: My MSc. Degree Seminar Presentation.
 
-      - title: NGINX HTTP Server Software Architecture‬‬‬‬
-        date: December 12, 2017
-        files: 
-          - name: slides
-            file: NGINXWebServer.pdf
+    - title: NGINX HTTP Server Software Architecture
+      date: December 12, 2017
+      files:
+        - name: slides
+          file: NGINXWebServer.pdf
 
-        type: Talk, Iran University of Science and Technology
-        language: English
-        text: A review of NGINX HTTP server architecture‬‬‬‬ and internal design.
+      type: Talk, Iran University of Science and Technology
+      language: English
+      text: A review of NGINX HTTP server architecture and internal design.
 
-      - title: Federated Authority
-        date: February 2, 2017
-        files: 
-          - name: slides
-            file: federatedauthority.pdf
+    - title: Federated Authority
+      date: February 2, 2017
+      files:
+        - name: slides
+          file: federatedauthority.pdf
 
-        type: Talk, Iran University of Science and Technology
-        language: English
-        text: The Clusters & Grids course presentation. Introducing the concepts of Authorization and Federated Identity for Cloud-Based Environments.
+      type: Talk, Iran University of Science and Technology
+      language: English
+      text: The Clusters & Grids course presentation. Introducing the concepts of Authorization and Federated Identity for Cloud-Based Environments.
 
 AcademicActivity:
-    title: Academic Activities
-    intro: |
-      Check out some of my college activities.
+  title: Academic Activities
+  intro:
 
-    activity:
-      - title: Member of Computer Engineering Science Association (CESA)
-        departman: School of Computer Engineering of IUST
-        duration: Jul 2013 - Jul 2014
+  activity:
+    - title: Network Administrator of Cloud Computer Center of IUST
+      departman: School of Computer Engineering of IUST
+      duration: 2016 - Now
 
-      - title: Member of IUST ACM Management Comittee (AMC)
-        departman: School of Computer Engineering of IUST
-        duration: Nov 2013 - Nov 2015
+    - title: Member of Computer Engineering Science Association (CESA)
+      departman: School of Computer Engineering of IUST
+      duration: 2013 - 2014
 
-      - title: Member of Cloud Computer Center of IUST
-        departman: School of Computer Engineering of IUST
-        duration: Jun 2016 - Now
+    - title: Member of IUST ACM Management Comittee (AMC)
+      departman: School of Computer Engineering of IUST
+      duration: 2013 - 2015
 
-      - title: Member of PyCon 2014 Organizer Team 
-        departman: School of Computer Engineering of IUST
-        duration: '2014'
+    - title: Organizer of 20 ACM Contests
+      departman: School of Computer Engineering and School of Mathematics of IUST
+      duration: 2013 - 2015
 
-      - title: Participant of PyCon 2015 and 2016
-        departman: 
-        duration:
+    - title: SysAdmin of IUST Git Server
+      departman: School of Computer Engineering of IUST
+      duration: 2014 - 2016
 
-      - title: SysAdmin of IUST Git Server
-        departman: School of Computer Engineering of IUST
-        duration: Jul 2014 - Sep 2016
+    - title: Participate in PyCon
+      departman:
+      duration: 2015, 2016
 
-      - title: Orginizer of 20 ACM Contests
-        departman: School of Computer Engineering and School of Mathematics of IUST
-        duration: 2013 - 2015
-
-      - title: Instructor of Microprocessor Lab 
-        departman: School of Computer Engineering of IUST
-        duration: 4 Semesters
-
-      - title: Teacher's Assistance of Microprocessor and Assembly Course
-        departman: School of Computer Engineering of IUST
-        duration: 2 Semesters
-
-      - title: Teacher's Assistance of Database Lab
-        departman: School of Computer Engineering of IUST
-        duration: 1 Semester
-
-      - title: Teacher's Assistance of Advanced Programming Course
-        departman: School of Mathematics of IUST
-        duration: 1 Semester
+    - title: Member of PyCon Organizer Team
+      departman: School of Computer Engineering of IUST
+      duration: 2014
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
+      - name: Linux
+        level: 80%
+
+      - name: Python
+        level: 80%
+
+      - name: Python Web Frameworks (Django-1.8, Flask)
+        level: 50%
+
       - name: C / C++ (11+)
         level: 75%
 
-      - name: Python
-        level: 90%
-        
+      - name: Qt (C++)
+        level: 60%
+
       - name: Java
         level: 50%
 
-      - name: Linux
-        level: 85%
-
       - name: Android
-        level: 60%
+        level: 50%
 
       - name: Java Card Programming
         level: 80%
@@ -385,23 +448,17 @@ skills:
       - name: GIT
         level: 50%
 
-      - name: Python Web Frameworks (Django-1.8, Flask)
-        level: 50%
-
-      - name: Qt
-        level: 60%
-
-      - name: Parallel Programming (pThread, MPI, Cilk)
+      - name: Parallel Programming (pThread)
         level: 85%
-        
+
       - name: Micro-controllers (AVR)
         level: 90%
 
       - name: HTML CSS JS
         level: 50%
-        
+
       - name: Bootstrap & Semantic-UI
         level: 80%
 
 footer: >
-    Designed by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
