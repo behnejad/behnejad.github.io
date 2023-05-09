@@ -8,7 +8,7 @@ sidebar:
 
     # Profile information
     name: Hooman Behnejad Fard
-    tagline: Senior Software Engineer
+    tagline: Software Engineer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -39,13 +39,13 @@ sidebar:
     interests:
       title: Interests
       info:
-        - item: Climbing
-          link:
-
         - item: Software Performability
           link:
 
-        - item: POS/Payment Switch
+        - item: Software Architecture
+          link:
+
+        - item: Payment Switch
           link:
 
         - item: Operating Systems
@@ -61,6 +61,9 @@ sidebar:
           link:
 
         - item: Hardware
+          link:
+
+        - item: Climbing
           link:
 
 career-profile:
