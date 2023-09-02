@@ -212,6 +212,19 @@ experiences:
         details: |
           Developing cashless ATMs with Qt and C++.
 
+#certifications:
+#  title: Certifications
+#  list:
+#    - name: ''
+#      start: 2020
+#      end: 2021
+#      organization: Microsoft
+#      credentialid: 111-222
+#      credentialurl: www.google.com
+#      credentialname: Google
+#      details: |
+
+
 projects:
     title: Projects
     intro: >
