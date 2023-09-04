@@ -173,7 +173,7 @@ experiences:
         details: |
           Developing userspace software for control plain of DWDM Transmission System. 
           Such as cli, update subsystem, trap sender and so on. <br>
-          Developing kernel module for providing percise clock signal for mdio over gpio. <br>
+          Developing kernel module for providing precise clock signal for mdio over gpio. <br>
           Maintaining yocto and jenkins. <br>
           Revising software architecture for embedded side of OLT devices. 
 
