@@ -442,7 +442,7 @@ skills:
         level: 50%
 
       - name: C / C++ (11+)
-        level: 75%
+        level: 80%
 
 #       - name: Parallel Programming (pThread)
 #         level: 85%
@@ -451,13 +451,13 @@ skills:
         level: 60%
 
       - name: Java
-        level: 50%
+        level: 40%
 
       - name: Android
-        level: 50%
+        level: 40%
 
       - name: Java Card Programming
-        level: 80%
+        level: 90%
 
       - name: Networking
         level: 80%
@@ -472,7 +472,7 @@ skills:
         level: 90%
 
       - name: HTML,CSS,JS (Bootstrap & Semantic-UI)
-        level: 50%
+        level: 30%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
