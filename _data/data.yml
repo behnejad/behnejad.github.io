@@ -152,14 +152,21 @@ experiences:
     title: Experiences
     info:
       - role: Head of Network Infrastructure
-        time: 2016 - Present
+        time: since 2016
         company: <a href="http://ccc.iust.ac.ir/">Cloud Computing Center of IUST</a>
         details: |
           Head of network administration and Infrastructure, member of deployment team and IT consultant.
           Find more <a href="https://ccc.iust.ac.ir/">here</a>.
 
+      - role: Software Engineer
+        time: since 2023
+        company: <a href="http://faash.ir/">Faash</a>
+        details: |
+          Developing Payment Terminal's application for the following brands: <br>
+          - <a href="http://www.sydtech.com.cn/en/">Sunyard</a>
+
       - role: C/C++ Developer
-        time: 2023 - present
+        time: since 2021
         company: <a href="http://sabinarya.com/">Sabin Tejarat Arya</a>
         details: |
           Developing Payment Terminal's application for the following brands: <br>
