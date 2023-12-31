@@ -439,7 +439,7 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Linux
+      - name: Unix/Linux Environment
         level: 80%
 
       - name: Python
@@ -464,7 +464,7 @@ skills:
         level: 40%
 
       - name: Java Card Programming
-        level: 90%
+        level: 50%
 
       - name: Networking
         level: 80%
