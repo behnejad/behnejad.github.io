@@ -3,71 +3,76 @@
 #
 
 sidebar:
-    position: right # position of the sidebar : left or right
-    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: False # set to False if you want education in main section instead of in sidebar
+  position: right # position of the sidebar : left or right
+  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: False # set to False if you want education in main section instead of in sidebar
 
-    # Profile information
-    name: Hooman Behnejad Fard
-    tagline: Software Engineer
+  # Profile information
+  name: Hooman Behnejad Fard
+  tagline: Software Engineer
 #    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  email: contact@behnejadfard.ir
+  phone:
+#  timezone: Asia/Tehran Timezone
+#  citizenship: Iran
+  website: https://behnejadfard.ir/ # Include the full website URL, including "http://" or "https://".
+  linkedin: hooman-behnejad-fard-bb545b72
+  xing:
+  github: behnejad
+  telegram: # add your nickname without '@' sign
+  gitlab:
+  bitbucket:
+#  bluesky: '@jekyllrb.bsky.social' # Specify your full Bluesky handle
+  twitter:
+  stack-overflow: '3211593' # Number/Username, e.g. 123456/alandoe
+  codewars:
+  goodreads: # Number-Username, e.g. 123456-alandoe
+  mastodon: # Please include your full Mastodon link here.
+  hackerrank: # Please provide your HackerRank username.
+  leetcode: # Please provide your LeetCode username.
+  pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
 
-    # Sidebar links
-    email: contact@behnejadfard.ir
-    phone:
-#    timezone: Asia/Tehran Timezone
-#    citizenship: Iran
-    website: behnejadfard.ir #do not add http://
-    linkedin: hooman-behnejad-fard-bb545b72
-    xing:
-    github: behnejad
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter:
-    stack-overflow: '3211593' # Number/Username, e.g. 123456/alandoe
-    codewars:
+  languages:
+    title: Languages
+    info:
+    - idiom: Persian
+      level: Native
 
-    languages:
-      title: Languages
-      info:
-        - idiom: Persian
-          level: Native
+    - idiom: English
+      level: Pre-advanced
 
-        - idiom: English
-          level: Pre-advanced
+  interests:
+    title: Interests
+    info:
+    - item: Software Performability
+      link:
 
-    interests:
-      title: Interests
-      info:
-        - item: Software Performability
-          link:
+    - item: Software Architecture
+      link:
 
-        - item: Software Architecture
-          link:
+    - item: Payment Switch
+      link:
 
-        - item: Payment Switch
-          link:
+    - item: Linux/Unix
+      link:
 
-        - item: Linux/Unix
-          link:
+    - item: Distributed Processing
+      link:
 
-        - item: Distributed Processing
-          link:
+    - item: Information Security
+      link:
 
-        - item: Information Security
-          link:
+    - item: Embedded Systems
+      link:
 
-        - item: Embedded Systems
-          link:
+    - item: Hardware
+      link:
 
-        - item: Hardware
-          link:
 
 career-profile:
-    title: Career Profile
-    summary: |
-      I start my developing journey when i attended to college. 
+  title: Career Profile
+  summary: |
+    I start my developing journey when i attended to college. 
       Python is my primary programming language and it always will be.
       After Python, CPP and C are my secondary languages which i use to gain more performance. <br>
       Linux is my programming environment.
@@ -83,32 +88,33 @@ career-profile:
       Working hard to be a professional software architect. 
 
       I find myself a person who wants to understand every little things behind anything (Software and Hardware). <br>
-      It helps me to understand better and use it in future projects. <br>
-      I am thirsty for knowledge and never giving up on learning things.
+    It helps me to understand better and use it in future projects. <br>
+    I am thirsty for knowledge and never giving up on learning things.
 
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science (System Software)
-        university: Iran University of Science and Technology (<a href="https://iust.ac.ir">IUST</a>)
-        time: 2016 - 2018
-        details: |
-          Software managements and software engineering/design principles are the most precious things
-          i have learned in master's degree.
+    - degree: MSc in Computer Science (System Software)
+      university: Iran University of Science and Technology (<a href="https://iust.ac.ir">IUST</a>)
+      time: 2016 - 2018
+      details: |
+        Software managements and software engineering/design principles are the most precious things
+        i have learned in master's degree.
+  
+        - Seminar: A Study on Challenges and their Solutions of Live Migration of Execution Units
 
-          - Seminar: A Study on Challenges and their Solutions of Live Migration of Execution Units
-
-      - degree: BSc in Computer Science (Software)
-        university: Iran University of Science and Technology (<a href="https://iust.ac.ir">IUST</a>)
-        time: 2012 - 2016
-        details: |
-          I have learned Linux, MySQL, PostgreSQL, RESTFul API, Apache web-server, 
-          NGINX and so many basis for development process.
-          
-          - Project: Design and Implementation of Web Scraping System for Mining 
-          Scientific Papers and Relation between their Authors<br>
-          Available at <a href="https://github.com/Aftabgardun/" class="btn btn-default btn-xs">Github</a>
+    - degree: BSc in Computer Science (Software)
+      university: Iran University of Science and Technology (<a href="https://iust.ac.ir">IUST</a>)
+      time: 2012 - 2016
+      details: |
+        I have learned Linux, MySQL, PostgreSQL, RESTFul API, Apache web-server, 
+            NGINX and so many basis for development process.
+            
+        - Project: Design and Implementation of Web Scraping System for Mining 
+        Scientific Papers and Relation between their Authors<br>
+        Available at <a href="https://github.com/Aftabgardun/" class="btn btn-default btn-xs">Github</a>
 #<i class="fab fa-github"></i>
+
 teachingCourse:
   title: Teaching Courses
   courses:
@@ -142,78 +148,77 @@ teachingCourse:
       location: School of Mathematics of IUST
       duration: 1 Semester
 
-
 experiences:
-    title: Experiences
-    info:
-      - role: Head of Network Infrastructure
-        time: since 2016
-        company: <a href="https://ccc.iust.ac.ir/">Cloud Computing Center of IUST</a>
-        details: |
-          Head of network administration and Infrastructure, member of deployment team and IT consultant.
+  title: Experiences
+  info:
+  - role: Software Engineer
+    time: since 2023
+    company: <a href="https://faash.ir/">Faash</a>
+    details: |
+      Developing Payment Terminal's application for the following brands: <br>
+      - <a href="https://www.sydtech.com.cn/en/">Sunyard</a>
+      - <a href="https://www.paxtechnology.com">PAX</a>
+
+  - role: C/C++ Developer
+    time: 2021 - 2023
+    company: <a href="https://sabinarya.com/">Sabin Tejarat Arya</a>
+    details: |
+      Developing Payment Terminal's application for the following brands: <br>
+      - <a href="https://www.paxtechnology.com">PAX</a>
+      - <a href="https://amobilepayment.com">AMP</a>
+      - <a href="https://www.spectratech.com">Spectra</a>
+
+  - role: C/C++ Developer
+    time: 2020 - 2023
+    company: <a href="https://sinacomsys.com/">Sina Communication Systems</a>
+    details: |
+      Developing userspace software for control plain of DWDM Transmission System. 
+      Such as cli, update subsystem, trap sender and so on. <br>
+      Developing kernel module for providing precise clock signal for mdio over gpio. <br>
+      Maintaining yocto and jenkins. <br>
+      Revising software architecture for embedded side of OLT devices. 
+
+  - role: C/C++ Developer
+    time: 2018 - 2020
+    company: <a href="https://www.kiccc.com/">IranKish Credit Card Company</a>
+    details: |
+      Developing Payment Terminal's application for the following brands: <br>
+      - <a href="https://amobilepayment.com">AMP</a>
+      - <a href="https://www.spectratech.com">Spectra</a>
+
+      Noticeable activities:
+       - AMP Terminals (mPOS, Android POS, Linux POS)
+       - Spectra Terminals (T300, SP530)
+       - Spectra SP530 application for <a href="https://sadadpsp.ir">SADAD</a> psp.
+       - Closed loop payment switch.
+
+  - role: C/C++ Developer
+    time: 2017 - 2018
+    company: Pars System Pouya Iranian (PSPIR)
+    details: |
+      Working on <a href="https://amobilepayment.com">AMP</a> POS series (Iran's branch) 
+      and developed complete programs for entire AMP series such as: <br>
+        - Linux-based POS
+        - Android-based POS
+        - Mobile POS
+
+      Noticeable activities:
+      - Developed a library for making ISO8583 messages. <br>
+      - Working with Fuel dispensers.
+      - Developing smart cards (java card) for private stations.
+
+  - role: C/C++ Developer
+    time: 2016 - 2017
+    company: Saramad Fanavari Etelaate Behpardazan
+    details: |
+      Developing Kiosk with Qt and C++.
+
+  - role: Head of Network Infrastructure
+    time: 2016 - 2024
+    company: <a href="https://ccc.iust.ac.ir/">Cloud Computing Center of IUST</a>
+    details: |
+      Head of network administration and Infrastructure, member of deployment team and IT consultant.
           Find more <a href="https://ccc.iust.ac.ir/">here</a>.
-
-      - role: Software Engineer
-        time: since 2023
-        company: <a href="https://faash.ir/">Faash</a>
-        details: |
-          Developing Payment Terminal's application for the following brands: <br>
-          - <a href="https://www.sydtech.com.cn/en/">Sunyard</a>
-          - <a href="https://www.paxtechnology.com">PAX</a>
-
-      - role: C/C++ Developer
-        time: 2021 - 2023
-        company: <a href="https://sabinarya.com/">Sabin Tejarat Arya</a>
-        details: |
-          Developing Payment Terminal's application for the following brands: <br>
-          - <a href="https://www.paxtechnology.com">PAX</a>
-          - <a href="https://amobilepayment.com">AMP</a>
-          - <a href="https://www.spectratech.com">Spectra</a>
-
-      - role: C/C++ Developer
-        time: 2020 - 2023
-        company: <a href="https://sinacomsys.com/">Sina Communication Systems</a>
-        details: |
-          Developing userspace software for control plain of DWDM Transmission System. 
-          Such as cli, update subsystem, trap sender and so on. <br>
-          Developing kernel module for providing precise clock signal for mdio over gpio. <br>
-          Maintaining yocto and jenkins. <br>
-          Revising software architecture for embedded side of OLT devices. 
-
-      - role: C/C++ Developer
-        time: 2018 - 2020
-        company: <a href="https://www.kiccc.com/">IranKish Credit Card Company</a>
-        details: |
-          Developing Payment Terminal's application for the following brands: <br>
-          - <a href="https://amobilepayment.com">AMP</a>
-          - <a href="https://www.spectratech.com">Spectra</a>
-
-          Noticeable activities:
-           - AMP Terminals (mPOS, Android POS, Linux POS)
-           - Spectra Terminals (T300, SP530)
-           - Spectra SP530 application for <a href="https://sadadpsp.ir">SADAD</a> psp.
-           - Closed loop payment switch.
-
-      - role: C/C++ Developer
-        time: 2017 - 2018
-        company: Pars System Pouya Iranian (PSPIR)
-        details: |
-          Working on <a href="https://amobilepayment.com">AMP</a> POS series (Iran's branch) 
-          and developed complete programs for entire AMP series such as: <br>
-            - Linux-based POS
-            - Android-based POS
-            - Mobile POS
-
-          Noticeable activities:
-          - Developed a library for making ISO8583 messages. <br>
-          - Working with Fuel dispensers.
-          - Developing smart cards (java card) for private stations.
-
-      - role: C/C++ Developer
-        time: 2016 - 2017
-        company: Saramad Fanavari Etelaate Behpardazan
-        details: |
-          Developing Kiosk with Qt and C++.
 
 #certifications:
 #  title: Certifications
@@ -228,10 +233,54 @@ experiences:
 #      details: |
 
 projects:
-    title: Projects
-    intro: >
+  title: Projects
+  intro: >
 
-    assignments:
+  assignments:
+    - title: Convergence
+      link: "#convergence"
+      tagline: A micro framework for agent based simulation written in Python.
+      sources:
+        - name: Github
+          icon: fa-github
+          link: https://github.com/omiddavoodi/Convergance/
+
+    - title: Aftabgardun
+      link: "#aftabgardun"
+      tagline: A web scraping system for scientific papers and relation between their authors.
+      sources:
+        - name: Github
+          icon: fa-github
+          link: https://github.com/Aftabgardun/
+
+    - title: NewsEngine
+      link: "#newsngine"
+      tagline: |
+        The aim of the project was to design and implement a web based News article crawler 
+        and also implement a Search Engine for indexing and retrieval of data
+        sources:
+        - name: newsEngineCrawler
+          icon: fa-github
+          link: https://github.com/erfan111/newsEngineCrawler/
+        
+        - name: newsEngine
+          icon: fa-github
+          link: https://github.com/erfan111/newsEngine/
+
+    - title: Distributed Messaging Application
+      link: "#DistributedMessagingApplication"
+      tagline: |
+        A distributed system which achieving a goal that is “Message Passing on Behalf of Clients”. 
+        This system is intended to provide an abstraction for the client that they see the whole system as single view.
+        sources:
+        - name: Client
+          icon: fa-github
+          link: https://github.com/erfan111/DistributedMessagingApplication-Client/
+        
+        - name: Server
+          icon: fa-github
+          link: https://github.com/erfan111/DistributedMessagingApplication-Server/
+
 #      - title: Part Inspection Plan (PIP)
 #        link: "#PIP"
 #        tagline: |
@@ -264,50 +313,6 @@ projects:
 #          - name: Github
 #            icon: fa-github
 #            link: https://github.com/behnejad/gosling/
-
-      - title: Convergence
-        link: "#convergence"
-        tagline: A micro framework for agent based simulation written in Python.
-        sources:
-          - name: Github
-            icon: fa-github
-            link: https://github.com/omiddavoodi/Convergance/
-
-      - title: Aftabgardun
-        link: "#aftabgardun"
-        tagline: A web scraping system for scientific papers and relation between their authors.
-        sources:
-          - name: Github
-            icon: fa-github
-            link: https://github.com/Aftabgardun/
-
-      - title: NewsEngine
-        link: "#newsngine"
-        tagline: |
-          The aim of the project was to design and implement a web based News article crawler 
-          and also implement a Search Engine for indexing and retrieval of data
-        sources:
-          - name: newsEngineCrawler
-            icon: fa-github
-            link: https://github.com/erfan111/newsEngineCrawler/
-
-          - name: newsEngine
-            icon: fa-github
-            link: https://github.com/erfan111/newsEngine/
-
-      - title: Distributed Messaging Application
-        link: "#DistributedMessagingApplication"
-        tagline: |
-          A distributed system which achieving a goal that is “Message Passing on Behalf of Clients”. 
-          This system is intended to provide an abstraction for the client that they see the whole system as single view.
-        sources:
-          - name: Client
-            icon: fa-github
-            link: https://github.com/erfan111/DistributedMessagingApplication-Client/
-
-          - name: Server
-            icon: fa-github
-            link: https://github.com/erfan111/DistributedMessagingApplication-Server/
 
 #oss:
 #  title: OSS Contributions
@@ -355,47 +360,47 @@ presentations:
   title: Presentation Materials
 
   items:
-    - title: "A Distributed Messaging Application: Design"
-      date: November 10, 2016
-      files:
-        - name: slides
-          file: sipmessaging.pdf
+  - title: "A Distributed Messaging Application: Design"
+    date: November 10, 2016
+    files:
+      - name: slides
+        file: sipmessaging.pdf
 
-      type: Talk, Iran University of Science and Technology
-      language: English
-      text: |
+    type: Talk, Iran University of Science and Technology
+    language: English
+    text: |
         Designing a Distributed Messaging Application which uses SIP protocol for communication. <br>
         Part of Distributed Systems course projects.
 
-    - title: A Study on Challenges and their Solutions of Live Migration of Execution Units
-      date: May 5, 2017
-      files:
-        - name: paper
-          file: seminarPaper.pdf
+  - title: A Study on Challenges and their Solutions of Live Migration of Execution Units
+    date: May 5, 2017
+    files:
+      - name: paper
+        file: seminarPaper.pdf
 
-      type: Talk, Iran University of Science and Technology
-      language: Persian
-      text: My MSc. Degree Seminar Presentation.
+    type: Talk, Iran University of Science and Technology
+    language: Persian
+    text: My MSc. Degree Seminar Presentation.
 
-    - title: NGINX HTTP Server Software Architecture
-      date: December 12, 2017
-      files:
-        - name: slides
-          file: NGINXWebServer.pdf
+  - title: NGINX HTTP Server Software Architecture
+    date: December 12, 2017
+    files:
+      - name: slides
+        file: NGINXWebServer.pdf
 
-      type: Talk, Iran University of Science and Technology
-      language: English
-      text: A review of NGINX HTTP server architecture and internal design.
+    type: Talk, Iran University of Science and Technology
+    language: English
+    text: A review of NGINX HTTP server architecture and internal design.
 
-    - title: Federated Authority
-      date: February 2, 2017
-      files:
-        - name: slides
-          file: federatedauthority.pdf
+  - title: Federated Authority
+    date: February 2, 2017
+    files:
+      - name: slides
+        file: federatedauthority.pdf
 
-      type: Talk, Iran University of Science and Technology
-      language: English
-      text: The Clusters & Grids course presentation. Introducing the concepts of Authorization and Federated Identity for Cloud-Based Environments.
+    type: Talk, Iran University of Science and Technology
+    language: English
+    text: The Clusters & Grids course presentation. Introducing the concepts of Authorization and Federated Identity for Cloud-Based Environments.
 
 AcademicActivity:
   title: Academic Activities
@@ -430,53 +435,65 @@ AcademicActivity:
       department: School of Computer Engineering of IUST
       duration: 2014
 
+recommendations:
+  title: Recommendations
+  list:
+  - person: Arash Golgol
+    email: arash.golgol@yahoo.com
+#    phone: 012 345 6789
+    role: Direct Manager
+    recommendation: |
+      Hooman is a smart engineer. His main focus is software programming (C++ and Python) but he also enjoys hardware hobbies. He always tries to understand how things work and what’s the underlying secret behind hardware/software. 
+      As Hooman always tries to understand the very basic principle of the system, he asks very good questions. In this way, he challenges you with what you think is definitely correct and obvious. And this is the way of a smart engineer.
+      During 1 year of our partnership, Hooman helped me to make good decisions. He always tries his best to find the optimal solution, not just the first one that came to mind. Wish you the best dear Hooman.
+
 skills:
-    title: Skills &amp; Proficiency
+  title: Skills &amp; Proficiency
 
-    toolset:
-      - name: Unix/Linux Environment (LPIC 1, 2)
-        level: 80%
+  toolset:
+  - name: Unix/Linux Environment (LPIC 1, 2)
+    level: 80%
 
-#      - name: Python
-#        level: 80%
+#  - name: Python
+#    level: 80%
 #
-#      - name: Python Web Frameworks (Django-1.8, Flask)
-#        level: 50%
+#  - name: Python Web Frameworks (Django-1.8, Flask)
+#    level: 50%
 
-      - name: C / C++ (11+)
-        level: 70%
+  - name: C / C++ (11+)
+    level: 70%
 
-#       - name: Parallel Programming (pThread)
-#         level: 85%
+#  - name: Parallel Programming (pThread)
+#    level: 85%
 
-      - name: Networking
-        level: 70%
+  - name: Networking
+    level: 70%
 
-      - name: Qt (C++)
-        level: 60%
+  - name: Qt (C++)
+    level: 60%
 
-      - name: Java Card Programming
-        level: 50%
+  - name: Java Card Programming
+    level: 50%
 
-      - name: Java SE
-        level: 40%
+  - name: Java SE
+    level: 40%
 
-      - name: Android
-        level: 40%
+  - name: Android
+    level: 40%
 
-#      - name: MikroTik
-#        level: 80%
-
-#       - name: GIT
-#         level: 50%
-
-#      - name: Microcontrollers (Atmel AVR)
-#        level: 90%
-
-#      - name: HTML,CSS,JS (Bootstrap & Semantic-UI)
-#        level: 30%
+#  - name: MikroTik
+#    level: 80%
+#
+#   - name: GIT
+#     level: 50%
+#
+#  - name: Microcontrollers (Atmel AVR)
+#    level: 90%
+#
+#  - name: HTML,CSS,JS (Bootstrap & Semantic-UI)
+#    level: 30%
 
 footer: >
-    Designed by <a href="https://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+  Designed by <a href="https://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
 
 #with <i class="fas fa-heart"></i>
