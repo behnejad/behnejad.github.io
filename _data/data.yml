@@ -218,7 +218,7 @@ experiences:
     company: <a href="https://ccc.iust.ac.ir/">Cloud Computing Center of IUST</a>
     details: |
       Head of network administration and Infrastructure, member of deployment team and IT consultant.
-          Find more <a href="https://ccc.iust.ac.ir/">here</a>.
+      Find more <a href="https://ccc.iust.ac.ir/">here</a>.
 
 #certifications:
 #  title: Certifications
@@ -258,7 +258,7 @@ projects:
       tagline: |
         The aim of the project was to design and implement a web based News article crawler 
         and also implement a Search Engine for indexing and retrieval of data
-        sources:
+      sources:
         - name: newsEngineCrawler
           icon: fa-github
           link: https://github.com/erfan111/newsEngineCrawler/
@@ -270,9 +270,9 @@ projects:
     - title: Distributed Messaging Application
       link: "#DistributedMessagingApplication"
       tagline: |
-        A distributed system which achieving a goal that is “Message Passing on Behalf of Clients”. 
+        A distributed system which achieving a goal that is “Message Passing on Behalf of Clients”.
         This system is intended to provide an abstraction for the client that they see the whole system as single view.
-        sources:
+      sources:
         - name: Client
           icon: fa-github
           link: https://github.com/erfan111/DistributedMessagingApplication-Client/
