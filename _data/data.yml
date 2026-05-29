@@ -73,9 +73,13 @@ career-profile:
   title: Career Profile
   summary: |
     I began my software development journey during college, where I discovered my passion for programming. Python has been my primary programming language ever since, and it continues to be my strongest area of expertise. In addition to Python, I work with C++ and C when performance and low-level optimization are required. Linux has always been my preferred development environment.<br>
+
     After graduating, I transitioned into the financial systems domain. This experience significantly shaped my professional career and strengthened my interest in building reliable and high-performance software solutions for the finance industry. It is a field in which I see myself continuing to grow long-term.<br>
+
     Continuous learning has always been a core part of who I am. I enjoy exploring new technologies, experimenting with modern approaches, and applying innovative solutions to real-world problems. I value teamwork and believe that collaborative development practices, along with Agile and Scrum methodologies, play an essential role in delivering successful projects.<br>
+
     Performance and scalability are among my highest priorities in software development. I am constantly working to improve my technical and architectural skills with the goal of becoming a professional software architect.<br>
+
     I am naturally curious and driven to understand the underlying details of both software and hardware systems. This mindset helps me build a deeper understanding of technology and apply that knowledge effectively in future projects. I am passionate about continuous improvement, always eager to learn, and committed to growing both personally and professionally.<br>
 
 education:
@@ -138,16 +142,18 @@ teachingCourse:
 experiences:
   title: Experiences
   info:
-  - role: Software Engineer
+  - role: Software Development Team Lead
     time: since 2023
     company: <a href="https://faash.ir/">Faash</a>
     details: |
-      Developing Payment Terminal's application for the following brands: <br>
+      Guiding cross-functional teams to deliver scalable, high-quality software solutions.<br>
+      Skilled in technical leadership, agile delivery, mentoring developers, and aligning engineering efforts with  business goals.<br>
+      Maintaing Payment Terminal's application for the following brands: <br>
       - <a href="https://www.sydtech.com.cn/en/">Sunyard</a>
       - <a href="https://www.paxtechnology.com">PAX</a>
 
   - role: C/C++ Developer
-    time: 2021 - 2023
+    time: 2021 - 2026
     company: <a href="https://sabinarya.com/">Sabin Tejarat Arya</a>
     details: |
       Developing Payment Terminal's application for the following brands: <br>
@@ -460,7 +466,7 @@ skills:
     level: 60%
 
   - name: Java Card Programming
-    level: 50%
+    level: 60%
 
   - name: Java SE
     level: 40%
