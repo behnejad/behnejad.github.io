@@ -72,24 +72,11 @@ sidebar:
 career-profile:
   title: Career Profile
   summary: |
-    I start my developing journey when i attended to college. 
-      Python is my primary programming language and it always will be.
-      After Python, CPP and C are my secondary languages which i use to gain more performance. <br>
-      Linux is my programming environment.
-
-      After college i was put in financial systems. It was very a good experience for me
-      and i will spend the rest of my career in this field.
-
-      Learning was a part of me and always will be.
-      I like to learn, try and apply new technologies to my work.
-      Working as a team and Scrum methodology play an important role in my development process. <br>
-
-      Performability is my main concern in development process.
-      Working hard to be a professional software architect. 
-
-      I find myself a person who wants to understand every little things behind anything (Software and Hardware). <br>
-    It helps me to understand better and use it in future projects. <br>
-    I am thirsty for knowledge and never giving up on learning things.
+    I began my software development journey during college, where I discovered my passion for programming. Python has been my primary programming language ever since, and it continues to be my strongest area of expertise. In addition to Python, I work with C++ and C when performance and low-level optimization are required. Linux has always been my preferred development environment.<br>
+    After graduating, I transitioned into the financial systems domain. This experience significantly shaped my professional career and strengthened my interest in building reliable and high-performance software solutions for the finance industry. It is a field in which I see myself continuing to grow long-term.<br>
+    Continuous learning has always been a core part of who I am. I enjoy exploring new technologies, experimenting with modern approaches, and applying innovative solutions to real-world problems. I value teamwork and believe that collaborative development practices, along with Agile and Scrum methodologies, play an essential role in delivering successful projects.<br>
+    Performance and scalability are among my highest priorities in software development. I am constantly working to improve my technical and architectural skills with the goal of becoming a professional software architect.<br>
+    I am naturally curious and driven to understand the underlying details of both software and hardware systems. This mindset helps me build a deeper understanding of technology and apply that knowledge effectively in future projects. I am passionate about continuous improvement, always eager to learn, and committed to growing both personally and professionally.<br>
 
 education:
     title: Education
