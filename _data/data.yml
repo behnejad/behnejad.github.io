@@ -150,25 +150,30 @@ experiences:
       Skilled in technical leadership, agile delivery, mentoring developers, and aligning engineering efforts with business goals.<br>
       Providing DevOps infrastructure such as GitLab CI/CD, Nexus.<br>
       Maintaing Payment Terminal's application for the following brands: <br>
-      - <a href="https://www.sydtech.com.cn/en/">Sunyard</a>
-      - <a href="https://www.paxtechnology.com">PAX</a>
+      - <a href="https://www.sydtech.com.cn/en/">Sunyard - S380</a>
+      - <a href="https://www.paxtechnology.com">PAX - Q80</a>
+      - <a href="https://pos.centerm.com">Centerm - B70</a>
+      Working with: <br>
+      - Safenet HSM
+      - USB Tokens
+      - Pointman TP9100 Card Printer
 
   - role: C/C++ Developer
     time: 2021 - 2026
     company: <a href="https://sabinarya.com/">Sabin Tejarat Arya</a>
     details: |
       Developing Payment Terminal's application for the following brands: <br>
-      - <a href="https://www.paxtechnology.com">PAX</a>
-      - <a href="https://amobilepayment.com">AMP</a>
-      - <a href="https://www.spectratech.com">Spectra</a>
-      - <a href="https://en.urovo.com">Urovo</a>
+      - <a href="https://www.paxtechnology.com">PAX - S800/Q80</a>
+      - <a href="https://amobilepayment.com">AMP - 2000</a>
+      - <a href="https://www.spectratech.com">Spectra - T300</a>
+      - <a href="https://en.urovo.com">Urovo - i9100</a>
 
   - role: C/C++ Developer
     time: 2020 - 2023
     company: <a href="https://sinacomsys.com/">Sina Communication Systems</a>
     details: |
-      Developing userspace software for control plain of DWDM Transmission System. 
-      Such as cli, update subsystem, trap sender and so on. <br>
+      Developing userspace software and low level protocols for control plain of DWDM Transmission System. 
+      Such as cli, update subsystem, trap sender, master/slave failover and so on. <br>
       Developing kernel module for providing precise clock signal for mdio over gpio. <br>
       Maintaining yocto and jenkins. <br>
       Revising software architecture for embedded side of OLT devices. 
@@ -179,7 +184,7 @@ experiences:
     details: |
       Developing Payment Terminal's application for the following brands: <br>
       - <a href="https://amobilepayment.com">AMP</a>
-      - <a href="https://www.spectratech.com">Spectra</a>
+      - <a href="https://www.spectratech.com">Spectra - T300</a>
 
       Noticeable activities:
        - AMP Terminals (mPOS, Android POS, Linux POS)
@@ -284,14 +289,22 @@ projects:
           icon: fa-github
           link: https://github.com/behnejad/gosling/
 
-#      - title: Part Inspection Plan (PIP)
-#        link: "#PIP"
-#        tagline: |
-#          A desktop application developed in Quality and Reliability Engineering lab (<a href="http://qrelab.iust.ac.ir/">QRELAB</a>)
-#          of <a href="https://iust.ac.ir">IUST</a> for
-#          verification of uniformity in the quality of parts and processes with the goal of implementation in production.
-#          This application is being used in <a href="https://www.saipacorp.com/en">Saipa corporation</a>. <br>
-#          Written in C++ with Qt.
+    - title: Android Payment Terminal for SaybanPay
+      link: "https://saybanpay.com/"
+      tagline: An android project for Kozen M500 payment terminal.
+      
+    - title: Payment Terminal for Etma
+      link: "https://main.etma.ir/"
+      tagline: A Castle V5s payment terminal with FastApi backend and Timescale as its database.
+
+    - title: Part Inspection Plan (PIP)
+      link: "#PIP"
+      tagline: |
+        A desktop application developed in Quality and Reliability Engineering lab (<a href="http://qrelab.iust.ac.ir/">QRELAB</a>)
+        of <a href="https://iust.ac.ir">IUST</a> for
+        verification of uniformity in the quality of parts and processes in production.
+        This application is being used in <a href="https://www.saipacorp.com/en">Saipa corporation</a>. <br>
+        Written in C++ with Qt.
 
 #      - title: JISO8583
 #        link: '#jiso'
@@ -476,14 +489,15 @@ skills:
   - name: Android
     level: 40%
 
-#  - name: MikroTik
-#    level: 80%
+  - name: MikroTik
+    level: 80%
+
+  - name: Embedded Systems
+    level: 90%
 #
 #   - name: GIT
 #     level: 50%
 #
-#  - name: Microcontrollers (Atmel AVR)
-#    level: 90%
 #
 #  - name: HTML,CSS,JS (Bootstrap & Semantic-UI)
 #    level: 30%
