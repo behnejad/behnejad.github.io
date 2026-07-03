@@ -147,7 +147,8 @@ experiences:
     company: <a href="https://faash.ir/">Faash</a>
     details: |
       Guiding cross-functional teams to deliver scalable, high-quality software solutions.<br>
-      Skilled in technical leadership, agile delivery, mentoring developers, and aligning engineering efforts with  business goals.<br>
+      Skilled in technical leadership, agile delivery, mentoring developers, and aligning engineering efforts with business goals.<br>
+      Providing DevOps infrastructure such as GitLab CI/CD, Nexus.<br>
       Maintaing Payment Terminal's application for the following brands: <br>
       - <a href="https://www.sydtech.com.cn/en/">Sunyard</a>
       - <a href="https://www.paxtechnology.com">PAX</a>
@@ -160,6 +161,7 @@ experiences:
       - <a href="https://www.paxtechnology.com">PAX</a>
       - <a href="https://amobilepayment.com">AMP</a>
       - <a href="https://www.spectratech.com">Spectra</a>
+      - <a href="https://en.urovo.com">Urovo</a>
 
   - role: C/C++ Developer
     time: 2020 - 2023
@@ -274,6 +276,14 @@ projects:
           icon: fa-github
           link: https://github.com/erfan111/DistributedMessagingApplication-Server/
 
+    - title: Gosling
+      link: "#gosling"
+      tagline: A simple online school exam website written in Python-django.
+      sources:
+        - name: Github
+          icon: fa-github
+          link: https://github.com/behnejad/gosling/
+
 #      - title: Part Inspection Plan (PIP)
 #        link: "#PIP"
 #        tagline: |
@@ -298,14 +308,6 @@ projects:
 #      - title: telegramBot
 #        link: "#tgbot"
 #        tagline: A simple Telegram bot for file sharing written in Python.
-
-#      - title: Gosling
-#        link: "#gosling"
-#        tagline: A simple online school exam website written in Python-django.
-#        sources:
-#          - name: Github
-#            icon: fa-github
-#            link: https://github.com/behnejad/gosling/
 
 #oss:
 #  title: OSS Contributions
